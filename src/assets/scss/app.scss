@@ -2,6 +2,7 @@
 @import 'settings';
 @import 'foundation';
 @import 'motion-ui';
+@import 'util/mixins';
 @include foundation-global-styles;
 @include foundation-grid;
 // @include foundation-flex-grid;
@@ -58,6 +59,7 @@ $color-links: #eb6262;
 $color-bien: #c5e1a5;
 $color-mal: #ef9a9a;
 $fuente-serif: 'Lora', serif;
+$fuente-sans-serif: 'Ubuntu', sans-serif;
 $punto-ruptura-1: 768px;
 $punto-ruptura-2: 1024px;
 $punto-ruptura-3: 769px;
@@ -75,6 +77,7 @@ $punto-ruptura-3: 769px;
 @import "numeros-grandes-texto";
 @import "tarjeta-boton";
 @import "modal";
+@import "mi-slider";
 
 .parrafo-ubuntu {
   font-size: 1.3rem;

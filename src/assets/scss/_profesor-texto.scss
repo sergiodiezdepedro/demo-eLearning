@@ -1,6 +1,15 @@
-.contenedor-profesor-texto {
+.contenedor-profesor-texto,
+.contenedor-profesora-texto {
   margin-top: 2rem;
   margin-bottom: 3rem;
+}
+
+.contenedor-profesora-texto {
+  display: flex;
+  align-items: flex-end;
+  @media screen and (max-width: $punto-ruptura-1) {
+    flex-direction: column;
+  }
 }
 
 .contenedor-profesor__imagen {
@@ -11,8 +20,24 @@
   }
 }
 
+.ordenar1 {
+  @media screen and (max-width: $punto-ruptura-1) {
+    order: 2;
+  }
+}
+
+.ordenar2 {
+  @media screen and (max-width: $punto-ruptura-1) {
+    order: 1;
+  }
+}
+
 .imagen-profesor {
   max-height: rem-calc(600);
+}
+
+.imagen-profesora {
+  max-height: rem-calc(500);
 }
 
 .contenedor-explicacion-profesor {
@@ -22,20 +47,43 @@
   border-radius: 5px;
   @media screen and (min-width: $punto-ruptura-2) {
     &::before {
-      content: "";
       position: absolute;
-      border-style: solid;
-      border-width: 60px 60px 60px 0;
-      border-color: transparent lighten($color-destacado-2, 45%) transparent transparent;
-      left: -40px;
-      top: 5px;
+      left: -50px;
+      top: 10px;
       z-index: -20;
+      @include css-triangle(60px, lighten($color-destacado-2, 45%), left);
+    }
+  }
+}
+
+.contenedor-explicacion-profesora {
+  position: relative;
+  padding: 1.5rem 2rem;
+  background-color: lighten($color-menu-links, 33%);
+  border-radius: 5px;
+  @media screen and (min-width: $punto-ruptura-2) {
+    &::after {
+      position: absolute;
+      right: -50px;
+      top: 5px;
+      z-index: -40;
+      @include css-triangle(60px, lighten($color-menu-links, 33%), right);
     }
   }
 }
 
 .explicacion-profesor__parrafo {
   color: darken($color-destacado, 10%);
+  font-size: 1.2rem;
+
+  &__primer-parrafo {
+    font-size: 1.6em;
+    color: $color-dark;
+  }
+}
+
+.explicacion-profesora__parrafo {
+  color: darken($color-menu-links, 25%);
   font-size: 1.2rem;
 
   &__primer-parrafo {
