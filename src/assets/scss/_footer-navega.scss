@@ -1,0 +1,76 @@
+.footer-navega {
+  background-color: $color-destacado;
+  color: $color-light;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.previo-vacio {
+  width: 50%;
+}
+
+.previo,
+.siguiente {
+  width: 50%;
+  cursor: pointer;
+  color: $color-light;
+
+  &:hover {
+    background-color: $color-light;
+    color: $color-destacado;
+  }
+}
+
+.contenedor-texto-anterior {
+  text-align: left;
+  @media screen and (min-width: $punto-ruptura-3) {
+    margin-left: 6em;
+  }
+  @media screen and (max-width: $punto-ruptura-1) {
+    margin-left: 1em;
+  }
+}
+
+.contenedor-texto-siguiente {
+  text-align: right;
+  @media screen and (min-width: $punto-ruptura-3) {
+    margin-right: 6em;
+  }
+  @media screen and (max-width: $punto-ruptura-1) {
+    margin-right: 1em;
+  }
+}
+
+.footer-link {
+  color: $color-light;
+  padding-top: 1.8em;
+  padding-bottom: 1.8em;
+  display: block;
+
+  &:hover {
+    color: $color-destacado;
+    text-decoration: none;
+  }
+}
+
+.footer-anterior,
+.footer-siguiente {
+  font-size: 0.938rem;
+}
+
+.footer-trayecto {
+  font-size: 1.125rem;
+}
+
+.footer-link {
+  &__icono-siguiente {
+    margin-left: 0.3rem;
+  }
+
+  &__icono-anterior {
+    margin-right: 0.3rem;
+  }
+}

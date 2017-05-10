@@ -1,0 +1,37 @@
+.pestanas {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.tabs-title a {
+  color: $color-destacado;
+
+  &:hover {
+    color: $color-links;
+  }
+}
+
+.tabs-title > a[aria-selected='true'] {
+  background-color: lighten($color-destacado, 50%);
+  border-radius: 3px;
+  color: $color-dark;
+  font-weight: bold;
+}
+
+.contenedor-cabecera-pestana {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.contenedor-cabecera-pestana i {
+  margin-bottom: 1.5rem;
+  font-size: 8rem;
+  color: lighten($color-complementario, 12%);
+}
+
+.pestana {
+  &__texto {
+    font-size: 0.9rem;
+    color: $color-dark;
+  }
+}

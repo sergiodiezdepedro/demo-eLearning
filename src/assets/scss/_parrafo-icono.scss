@@ -1,0 +1,63 @@
+.contenedor-parrafo-icono-conborde,
+.contenedor-parrafo-icono-estandar {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+}
+
+.contenedor-parrafo-icono-conborde {
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+  border-top: solid 3px $color-destacado-2;
+  border-bottom: solid 3px $color-destacado-2;
+}
+
+.icono-parrafo-estandar {
+  color: $color-complementario;
+  @media screen and (max-width: $punto-ruptura-1) {
+    font-size: 2rem;
+    margin-right: 1rem;
+  }
+  @media screen and (min-width: $punto-ruptura-2) {
+    font-size: 3.5rem;
+    margin-right: 2rem;
+  }
+}
+
+.icono-parrafo-conborde {
+  color: $color-destacado-2;
+  @media screen and (max-width: $punto-ruptura-1) {
+    font-size: 4rem;
+    margin-right: 1rem;
+  }
+  @media screen and (min-width: $punto-ruptura-2) {
+    font-size: 6rem;
+    margin-right: 2rem;
+  }
+}
+
+.parrafo-icono-conborde,
+.parrafo-icono-estandar {
+  margin-bottom: 0;
+}
+
+.parrafo-icono-estandar {
+  font-family: $fuente-serif;
+  color: $color-light-darken;
+  @media screen and (max-width: $punto-ruptura-1) {
+    font-size: 1.8rem;
+  }
+  @media screen and (min-width: $punto-ruptura-2) {
+    font-size: 2.5rem;
+  }
+}
+
+.parrafo-icono-conborde {
+  color: darken($color-destacado-2, 18%);
+  @media screen and (max-width: $punto-ruptura-1) {
+    font-size: 1.5rem;
+  }
+  @media screen and (min-width: $punto-ruptura-2) {
+    font-size: 1.7rem;
+  }
+}

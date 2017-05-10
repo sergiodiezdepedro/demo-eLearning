@@ -1,0 +1,40 @@
+---
+titulo-pagina: Página 6
+link-inicio-curso: index.html
+link-inicio-modulo: inicio-modulo.html
+link-inicio-unidad: inicio-unidad.html
+previo: Página 5
+link-previo: pagina05.html
+siguiente: Página 7
+link-siguiente: pagina07.html
+jumbo-id: jumbo3
+titulo-cabecera-jumbo: Una frase importante
+texto-jumbo: Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Nesciunt sequi totam porro dicta reprehenderit fugit odio vitae unde! Odit possimus eius omnis illo quas?
+encabezado-tarjeta: At vero eos et accusamus et iusto odio
+texto-tarjeta-1: Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus.
+texto-tarjeta-2: Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+icono-tarjeta-boton: fa-plus-square
+interaccion-boton: modal1
+id-modal: modal1
+cabecera-modal: Expetenda tincidunt in sed
+modal-texto-destacado: His audiam deserunt in, eum ubique voluptatibus te. In reque dicta usu. Ne rebum dissentiet eam, vim omnis deseruisse id.
+modal-parrafo-1: Ei his quas phaedrum, efficiantur mediocritatem ne sed, hinc oratio blandit ei sed. Blandit gloriatur eam et. Brute noluisse per et, verear disputando neglegentur at quo. Sea quem legere ei, unum soluta ne duo. Ludus complectitur quo te, ut vide autem homero pro.
+modal-parrafo-2: Vis id minim dicant sensibus. Pri aliquip conclusionemque ad, ad malis evertitur torquatos his. Has ei solum harum reprimique, id illum saperet tractatos his. Ei omnis soleat antiopam quo. Ad augue inani postulant mel, mel ea qualisque forensibus.
+---
+<div class="contenedor-principal">
+  {{> migas}}
+  {{> jumbo-frase}}
+  <div class="row">
+    <div class="large-5 columns">
+      {{> tarjeta-boton}}
+    </div>
+    <div class="large-7 columns ">
+        <div class="responsive-embed margin-top">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/lt7yZB92McM" frameborder="0" allowfullscreen></iframe>
+        </div>
+          <h4 class="texto-destacado">Título vídeo</h4>
+    </div>
+  </div>
+  {{> modal}}
+</div>
+{{> footer type='footer-normal'}}

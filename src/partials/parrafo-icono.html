@@ -1,0 +1,19 @@
+<div class="row">
+  <div class="large-12 columns">
+    {{#ifequal type 'estandar'}}
+    <div class="contenedor-parrafo-icono-estandar">
+      <i class="icono-parrafo-estandar fa {{icono-parrafo}}"></i>
+      <p class="parrafo-icono-estandar">
+        {{texto-parrafo-icono}}
+      </p>
+    </div>
+    {{/ifequal}} {{#ifequal type 'con-borde'}}
+    <div class="contenedor-parrafo-icono-conborde">
+      <i class="icono-parrafo-conborde fa {{icono-parrafo}}"></i>
+      <p class="parrafo-icono-conborde">
+        {{texto-parrafo-icono}}
+      </p>
+    </div>
+    {{/ifequal}}
+  </div>
+</div>

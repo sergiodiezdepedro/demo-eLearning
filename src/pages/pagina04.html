@@ -1,0 +1,56 @@
+---
+titulo-pagina: Página 4
+link-inicio-curso: index.html
+link-inicio-modulo: inicio-modulo.html
+link-inicio-unidad: inicio-unidad.html
+previo: Página 3
+link-previo: pagina03.html
+siguiente: Página 5
+link-siguiente: pagina05.html
+---
+<div class="contenedor-principal">
+  {{> migas}}
+  <div class="row">
+    <div class="large-12 columns">
+      <div class="contenedor-centrar-horizontal">
+        <p class="parrafo-destacado ">
+          El tema que se trata cuenta con las ventajas y los inconvenientes siguientes:
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="expanded row">
+    <div class="contenedor-bien-mal">
+      <div class="contenedor-bien">
+        <div class="contenedor-icono-bien">
+          <i class="fa fa-check-square-o"></i>
+        </div>
+        <div class="contenedor-lista-bien">
+          <ul class="lista-bien">
+            <li class="lista-bien__item">Duis nec tellus id enim eleifend ultricies at pellentesque orci.</li>
+            <li class="lista-bien__item">Cras augue lorem, viverra sit amet nulla at, ultricies semper augue.</li>
+            <li class="lista-bien__item">Praesent vitae nunc finibus, dignissim ligula ullamcorper, congue orci.</li>
+            <li class="lista-bien__item">Nunc in eros nec nisi rhoncus volutpat. </li>
+            <li class="lista-bien__item">Nullam ullamcorper ligula nec turpis mattis dapibus. </li>
+          </ul>
+        </div>
+      </div>
+      <div class="contenedor-mal">
+        <div class="contenedor-icono-mal">
+          <i class="fa fa-times-rectangle-o"></i>
+        </div>
+        <div class="contenedor-lista-mal">
+          <ul class="lista-mal">
+            <li class="lista-mal__item">Phasellus imperdiet lorem ac nunc tristique, at aliquet eros pulvinar.</li>
+            <li class="lista-mal__item">Aliquam finibus dui erat, in posuere ipsum pulvinar a.</li>
+            <li class="lista-mal__item">Aenean porttitor lacus ut libero rhoncus ullamcorper.</li>
+            <li class="lista-mal__item">Etiam vitae blandit urna. Nulla lectus nisi, finibus eleifend dolor ac, cursus congue nunc.</li>
+            <li class="lista-mal__item">Vivamus tincidunt ex at mi viverra lobortis.</li>
+            <li class="lista-mal__item">Sed fermentum bibendum sollicitudin. Nunc pulvinar ullamcorper tellus in tempus.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{{> footer type='footer-normal'}}

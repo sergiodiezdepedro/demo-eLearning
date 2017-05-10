@@ -1,0 +1,203 @@
+@charset 'utf-8';
+@import 'settings';
+@import 'foundation';
+@import 'motion-ui';
+@include foundation-global-styles;
+@include foundation-grid;
+// @include foundation-flex-grid;
+@include foundation-typography;
+@include foundation-button;
+@include foundation-forms;
+// @include foundation-range-input;
+@include foundation-accordion;
+@include foundation-accordion-menu;
+@include foundation-badge;
+@include foundation-breadcrumbs;
+@include foundation-button-group;
+@include foundation-callout;
+@include foundation-card;
+@include foundation-close-button;
+@include foundation-menu;
+@include foundation-menu-icon;
+@include foundation-drilldown-menu;
+@include foundation-dropdown;
+@include foundation-dropdown-menu;
+@include foundation-responsive-embed;
+@include foundation-label;
+@include foundation-media-object;
+@include foundation-off-canvas;
+@include foundation-orbit;
+@include foundation-pagination;
+@include foundation-progress-bar;
+// @include foundation-progress-element;
+// @include foundation-meter-element;
+@include foundation-slider;
+@include foundation-sticky;
+@include foundation-reveal;
+@include foundation-switch;
+@include foundation-table;
+@include foundation-tabs;
+@include foundation-thumbnail;
+@include foundation-title-bar;
+@include foundation-tooltip;
+@include foundation-top-bar;
+@include foundation-visibility-classes;
+@include foundation-float-classes;
+// @include foundation-flex-classes;
+@include motion-ui-transitions;
+@include motion-ui-animations;
+@import url( 'https://fonts.googleapis.com/css?family=Lora|Ubuntu');
+$color-destacado: #445762;
+$color-destacado-2: #1565c0;
+$color-light: #eee;
+$color-dark: #212121;
+$color-light-darken: #9e9e9e;
+$color-complementario: #b0bEc5;
+$color-menu-links: #777;
+$color-links: #eb6262;
+$color-bien: #c5e1a5;
+$color-mal: #ef9a9a;
+$fuente-serif: 'Lora', serif;
+$punto-ruptura-1: 768px;
+$punto-ruptura-2: 1024px;
+$punto-ruptura-3: 769px;
+@import "cabecera";
+@import "navegacion";
+@import "migas";
+@import "jumbo";
+@import "acordeon";
+@import "pestanas";
+@import "footer-navega";
+@import "tarjeta-imagen-circular";
+@import "parrafo-icono";
+@import "profesor-texto";
+@import "lista-bien-mal";
+@import "numeros-grandes-texto";
+@import "tarjeta-boton";
+@import "modal";
+
+.parrafo-ubuntu {
+  font-size: 1.3rem;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.parrafo-lora {
+  font-family: $fuente-serif;
+  font-size: 1.3rem;
+}
+
+.contenedor-principal {
+  margin-top: 2rem;
+}
+
+.contenedor-general-60 {
+  @media screen and (min-width: $punto-ruptura-2) {
+    width: 60%;
+  }
+  @media screen and (max-width: $punto-ruptura-1) {
+    width: 100%;
+  }
+}
+
+.contenedor-centrar-horizontal {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.contenedor-general-flex {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  @media screen and (max-width: $punto-ruptura-1) {
+    flex-direction: column;
+  }
+}
+
+.contenedor-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.margin-top {
+  margin-top: 2rem;
+}
+
+.texto-destacado {
+  color: $color-destacado;
+  margin: 2rem 0 1rem 2rem;
+}
+
+.lista-destacada {
+  list-style: circle;
+  font-size: 1.5rem;
+  color: $color-destacado;
+
+  &__item__texto {
+    color: $color-dark;
+    font-size: 1rem;
+  }
+}
+
+.parrafo-destacado {
+  font-family: $fuente-serif;
+  color: $color-light-darken;
+  @media screen and (min-width: $punto-ruptura-2) {
+    font-size: 2.5rem;
+  }
+  @media screen and (max-width: $punto-ruptura-1) {
+    font-size: 1.7rem;
+  }
+}
+
+.lista-triangulos {
+  padding: 0 1.5rem;
+  list-style: none;
+  font-size: 1.5rem;
+  color: $color-destacado;
+  @media screen and (min-width: $punto-ruptura-2) {
+    margin: 0 0 3rem 2rem;
+  }
+  @media screen and (max-width: $punto-ruptura-1) {
+    margin: 0 0 0 2rem;
+  }
+
+  &__item {
+    margin-bottom: 0.8rem;
+
+    &::before {
+      content: "";
+      border-color: transparent $color-menu-links;
+      border-style: solid;
+      border-width: 0.35em 0 0.35em 0.45em;
+      display: block;
+      height: 0;
+      width: 0;
+      left: -1em;
+      top: 1.1em;
+      position: relative;
+    }
+  }
+}
+
+.oculta-small {
+  @media screen and(max-width: $punto-ruptura-1) {
+    display: none;
+  }
+}
+
+.icon-hero {
+  font-size: 20rem;
+
+  &__gris {
+    color: lighten($color-complementario, 17%);
+  }
+}
+
+.div-fondo-imagen {
+  width: 40%;
+  background-image: url('../img/fondo01.jpg');
+  background-size: cover;
+  border-radius: 5px;
+}

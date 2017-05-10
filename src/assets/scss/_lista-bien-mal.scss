@@ -1,0 +1,56 @@
+.contenedor-bien-mal {
+  display: flex;
+  @media screen and (max-width: $punto-ruptura-1) {
+    flex-direction: column;
+  }
+}
+
+.contenedor-bien,
+.contenedor-mal {
+  @media screen and (max-width: $punto-ruptura-1) {
+    width: 100%;
+  }
+  @media screen and (min-width: $punto-ruptura-2) {
+    width: 50%;
+  }
+}
+
+.contenedor-bien {
+  background-color: $color-bien;
+}
+
+.contenedor-mal {
+  background-color: $color-mal;
+}
+
+.contenedor-icono-bien,
+.contenedor-icono-mal {
+  font-size: 6rem;
+  margin-left: 2rem;
+}
+
+.contenedor-icono-bien {
+  color: darken($color-bien, 15%);
+}
+
+.contenedor-icono-mal {
+  color: darken($color-mal, 8%);
+}
+
+.contenedor-lista-bien,
+.contenedor-lista-mal {
+  margin-left: 2rem;
+  margin-right: 1.5rem;
+}
+
+.lista-bien,
+.lista-mal {
+  list-style: circle;
+  color: $color-dark;
+  @media screen and (max-width: $punto-ruptura-1) {
+    font-size: 1rem;
+  }
+  @media screen and (min-width: $punto-ruptura-2) {
+    font-size: 1.5rem;
+  }
+}

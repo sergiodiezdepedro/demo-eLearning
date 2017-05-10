@@ -1,0 +1,41 @@
+---
+titulo-pagina: Página 1
+link-inicio-curso: index.html
+link-inicio-modulo: inicio-modulo.html
+link-inicio-unidad: inicio-unidad.html
+previo: Inicio Unidad 1
+link-previo: inicio-unidad.html
+siguiente: Página 2
+link-siguiente: pagina02.html
+icono-parrafo: fa-quote-left
+texto-parrafo-icono: Proin dictum magna nisl, eu venenatis purus lobortis posuere. Suspendisse potenti. Donec eu blandit urna.
+---
+<div class="contenedor-principal">
+  {{> migas}}
+  {{> parrafo-icono type='estandar'}}
+<div class="row">
+  <div class="large-6 columns">
+    <div class="contenedor-tarjeta-imagen-circular">
+      <img src="{{root}}assets/img/engranajes.jpg" alt="Engranajes" class="tarjeta-imagen-circular__imagen">
+      <p class="tarjeta-imagen-circular__texto">
+        Pellentesque nibh eros, convallis ac varius id, bibendum eget dolor. Duis id suscipit velit. Quisque tincidunt velit vitae nulla commodo vestibulum.</p>
+        <p class="tarjeta-imagen-circular__texto">Proin id sem elementum, gravida quam vitae, eleifend nulla. Pellentesque risus augue, pellentesque eget posuere vitae, gravida eget est.</p>
+        <p class="tarjeta-imagen-circular__texto">
+          Vivamus convallis lacus ligula, gravida pulvinar nunc accumsan non. Cras gravida quis ex nec vulputate. Aliquam erat tortor, eleifend quis laoreet in, blandit nec sem.
+        </p>
+    </div>
+  </div>
+  <div class="large-6 columns">
+    <div class="contenedor-tarjeta-imagen-circular">
+      <img src="{{root}}assets/img/anotaciones.jpg" alt="Anotaciones" class="tarjeta-imagen-circular__imagen">
+      <p class="tarjeta-imagen-circular__texto">
+      Aenean dignissim dolor vel enim porta feugiat. Nulla feugiat justo sed enim interdum pulvinar. Integer bibendum posuere lorem. Ut iaculis enim quis metus mollis condimentum.
+      </p>
+      <p class="tarjeta-imagen-circular__texto">
+      Vestibulum tempor, sapien in iaculis vehicula, lectus sem interdum ipsum, auctor facilisis leo velit vel dolor.
+      </p>
+    </div>
+  </div>
+</div>
+</div>
+{{> footer type='footer-normal'}}

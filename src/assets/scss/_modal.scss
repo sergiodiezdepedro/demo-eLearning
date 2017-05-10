@@ -1,0 +1,29 @@
+.reveal {
+  border-radius: 5px;
+  box-shadow: 4px 5px 15px rgba($color-dark, .7);
+  @media screen and (max-width: $punto-ruptura-1) {
+    padding: 1.5rem;
+  }
+  @media screen and (min-width: $punto-ruptura-2) {
+    padding: 2rem;
+  }
+}
+
+.cabecera-modal {
+  color: $color-destacado;
+}
+
+.modal-texto-destacado {
+  font-size: 1.5rem;
+  &::first-letter {
+    margin-right: .1rem;
+    font-size: 200%;
+    font-weight: bold;
+    color: $color-light-darken;
+  }
+}
+
+.modal-parrafo {
+  font-size: 1.1rem;
+  color: $color-dark;
+}

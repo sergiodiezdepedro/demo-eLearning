@@ -1,0 +1,31 @@
+<div class="footer-navega">
+  {{#ifequal type 'footer-normal'}}
+  <div class="previo">
+    <a class="footer-link" href="{{link-previo}}">
+      <div class="contenedor-texto-anterior">
+        <p class="footer-anterior">Previo</p>
+        <p class="footer-trayecto"><i class="footer-link__icono-anterior fa fa-chevron-left"></i>{{previo}}</p>
+      </div>
+    </a>
+  </div>
+  <div class="siguiente">
+    <a class="footer-link" href="{{link-siguiente}}">
+      <div class="contenedor-texto-siguiente">
+        <p class="footer-siguiente">Siguiente</p>
+        <p class="footer-trayecto">{{siguiente}}<i class="footer-link__icono-siguiente fa fa-chevron-right"></i></p>
+      </div>
+    </a>
+  </div>
+  {{/ifequal}}
+  {{#ifequal type 'footer-primera'}}
+  <div class="previo-vacio"></div>
+  <div class="siguiente">
+    <a class="footer-link" href="{{link-siguiente}}">
+      <div class="contenedor-texto-siguiente">
+        <p class="footer-siguiente">Siguiente</p>
+        <p class="footer-trayecto">{{siguiente}}<i class="footer-link__icono-siguiente fa fa-chevron-right"></i></p>
+      </div>
+    </a>
+  </div>
+  {{/ifequal}}
+</div>

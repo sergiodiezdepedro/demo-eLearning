@@ -1,0 +1,15 @@
+.breadcrumbs {
+  background-color: lighten($color-destacado, 60%);
+  padding: .5rem;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+.breadcrumbs > li > a {
+  font-size: 0.7rem;
+  color: $color-dark;
+}
+
+.activa {
+  color: darken($color-complementario, 25%);
+}

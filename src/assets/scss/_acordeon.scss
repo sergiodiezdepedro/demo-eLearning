@@ -1,0 +1,70 @@
+.accordion {
+  margin-top: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.acordeon {
+  &__titulo {
+    font-size: 1.2rem;
+  }
+
+  &__contenedor__contenido {
+    @media screen and (max-width: $punto-ruptura-1) {
+      padding: 0.5rem;
+    }
+    @media screen and (min-width: $punto-ruptura-2) {
+      padding: 1.5rem 3rem;
+    }
+  }
+
+  &__parrafo {
+    @media screen and (max-width: $punto-ruptura-1) {
+      font-size: 1rem;
+    }
+    @media screen and (min-width: $punto-ruptura-2) {
+      font-size: 1.2rem;
+    }
+  }
+}
+
+.acordeon-menu {
+  &__titulo {
+    font-size: 0.9rem;
+  }
+}
+
+.acordeon,
+.acordeon-menu {
+  background-color: lighten($color-destacado, 50%);
+  border-radius: 5px;
+
+  &__titulo {
+    color: $color-destacado;
+
+    &:hover {
+      background-color: lighten($color-destacado, 45%);
+      color: darken($color-destacado, 50%);
+    }
+
+    &:focus {
+      background-color: lighten($color-destacado, 50%);
+      color: $color-destacado;
+    }
+  }
+}
+
+.unidades {
+  list-style: none;
+
+  li {
+    a {
+      color: $color-links;
+      font-size: 0.8em;
+
+      &:hover {
+        color: darken($color-links, 18%);
+        text-decoration: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+.contenedor-profesor-texto {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.contenedor-profesor__imagen {
+  display: flex;
+  justify-content: center;
+  @media screen and (max-width: $punto-ruptura-1) {
+    margin-bottom: 2rem;
+  }
+}
+
+.imagen-profesor {
+  max-height: rem-calc(600);
+}
+
+.contenedor-explicacion-profesor {
+  position: relative;
+  padding: 1.5rem 2rem;
+  background-color: lighten($color-destacado-2, 45%);
+  border-radius: 5px;
+  @media screen and (min-width: $punto-ruptura-2) {
+    &::before {
+      content: "";
+      position: absolute;
+      border-style: solid;
+      border-width: 60px 60px 60px 0;
+      border-color: transparent lighten($color-destacado-2, 45%) transparent transparent;
+      left: -40px;
+      top: 5px;
+      z-index: -20;
+    }
+  }
+}
+
+.explicacion-profesor__parrafo {
+  color: darken($color-destacado, 10%);
+  font-size: 1.2rem;
+
+  &__primer-parrafo {
+    font-size: 1.6em;
+    color: $color-dark;
+  }
+}

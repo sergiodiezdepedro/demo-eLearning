@@ -1,0 +1,87 @@
+.cabecera {
+  background-color: $color-destacado;
+}
+
+.contenedor-cabecera {
+  width: 90%;
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+  @media screen and(max-width: $punto-ruptura-1) {
+    width: 97%;
+    flex-direction: column;
+  }
+}
+
+.contenedor-logo-nombre-curso {
+  width: 60%;
+  margin: 0.7em 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  @media screen and(max-width: $punto-ruptura-1) {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.contenedor-titulos {
+  @media screen and (min-width: $punto-ruptura-2) {
+    padding: 0.5rem;
+    border-left: 1px solid rgba($color-complementario, .25);
+    border-right: 1px solid rgba($color-complementario, .25);
+    margin-left: 1em;
+  }
+  @media screen and(max-width: $punto-ruptura-1) {
+    text-align: center;
+  }
+}
+
+.logo-curso {
+  max-width: 100%;
+}
+
+.nivel-1,
+.nivel-2,
+.titulo-curso {
+  margin: 0 1rem;
+  color: $color-light;
+}
+
+.titulo-curso {
+  margin: 0 1rem 1rem;
+  padding: 0.3rem;
+  font-size: 1.5em;
+  border-bottom: 2px dotted;
+  text-transform: uppercase;
+}
+
+.nivel-1,
+.nivel-2 {
+  font-size: 1.2em;
+  color: $color-light-darken;
+}
+
+.contenedor-titulo-pantalla {
+  width: 40%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  @media screen and(max-width: $punto-ruptura-1) {
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+}
+
+.titulo-pantalla {
+  color: $color-complementario;
+  margin: 0;
+  font-family: $fuente-serif;
+  font-weight: 600;
+  font-size: 2em;
+  text-transform: uppercase;
+}
