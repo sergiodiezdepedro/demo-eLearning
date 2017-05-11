@@ -1,0 +1,18 @@
+<div class="off-canvas position-left" id="offCanvasLeft" data-off-canvas>
+  <button class="close-button cerrar-off-canvas" aria-label="Close menu" type="button" data-close>
+    <span aria-hidden="true">&times;</span>
+  </button>
+  <ul class="vertical menu menu-canvas">
+    <h6 class="cabecera-offcanvas">Navegación</h6>
+    {{#ifequal type 'modulo1'}}
+    {{#each datos-modulo1.offcanvas}}
+    <li class="menu-canvas__item"><a class="menu-canvas__item__link" href="{{link-unidad}}">{{titulo-unidad}}</a></li>
+    {{/each}}
+    {{/ifequal}}
+    {{#ifequal type 'unidad1'}}
+    {{#each datos-modulo1.paginas-unidad1}}
+    <li class="menu-canvas__item"><a class="menu-canvas__item__link" href="{{link-pagina}}">{{titulo-pagina}}</a></li>
+    {{/each}}
+    {{/ifequal}}
+  </ul>
+</div>

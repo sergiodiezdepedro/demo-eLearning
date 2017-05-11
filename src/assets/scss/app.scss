@@ -50,6 +50,7 @@
 @import url( 'https://fonts.googleapis.com/css?family=Lora|Ubuntu');
 $color-destacado: #445762;
 $color-destacado-2: #1565c0;
+$color-destacado-3: #256689;
 $color-light: #eee;
 $color-dark: #212121;
 $color-light-darken: #9e9e9e;
@@ -78,6 +79,8 @@ $punto-ruptura-3: 769px;
 @import "tarjeta-boton";
 @import "modal";
 @import "mi-slider";
+@import "icono-abrir-canvas";
+@import "offcanvas";
 
 .parrafo-ubuntu {
   font-size: 1.3rem;

@@ -1,0 +1,45 @@
+.off-canvas {
+  background-color: $color-destacado-3;
+}
+
+.cabecera-offcanvas {
+  display: inline-block;
+  margin-bottom: 1rem;
+  padding: 0.4rem;
+  border-radius: 4px;
+  color: lighten($color-destacado-2, 40%);
+  border: 1px solid lighten($color-destacado-2, 40%);
+}
+
+.menu-canvas {
+  margin-top: 2rem;
+  margin-left: 0.5rem;
+
+  &__item {
+    transition: background-color 0.5s ease-out;
+
+    &:hover {
+      background-color: darken($color-destacado-3, 7%);
+    }
+  }
+
+  &__item__link {
+    color: $color-light;
+
+    &:hover {
+      color: $color-light;
+    }
+  }
+}
+
+.cerrar-off-canvas {
+  color: $color-light;
+
+  &:hover {
+    color: darken($color-light, 17%);
+  }
+
+  &:focus {
+    color: $color-light;
+  }
+}

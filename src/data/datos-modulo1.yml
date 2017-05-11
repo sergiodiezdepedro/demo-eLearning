@@ -1,0 +1,42 @@
+offcanvas:
+  -
+    link-unidad: inicio-unidad.html
+    titulo-unidad: Unidad 1
+  -
+    link-unidad: "#"
+    titulo-unidad: Unidad 2
+  -
+    link-unidad: "#"
+    titulo-unidad: Unidad 3
+  -
+    link-unidad: "#"
+    titulo-unidad: Unidad 4
+
+paginas-unidad1:
+  -
+    link-pagina: pagina01.html
+    titulo-pagina: Página 1
+  -
+    link-pagina: pagina02.html
+    titulo-pagina: Página 2
+  -
+    link-pagina: pagina03.html
+    titulo-pagina: Página 3
+  -
+    link-pagina: pagina04.html
+    titulo-pagina: Página 4
+  -
+    link-pagina: pagina05.html
+    titulo-pagina: Página 5
+  -
+    link-pagina: pagina06.html
+    titulo-pagina: Página 6
+  -
+    link-pagina: pagina07.html
+    titulo-pagina: Página 7
+  -
+    link-pagina: pagina08.html
+    titulo-pagina: Página 8
+  -
+    link-pagina: pagina09.html
+    titulo-pagina: Página 9 

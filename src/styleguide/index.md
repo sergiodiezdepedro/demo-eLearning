@@ -6,7 +6,9 @@
 
 # Visión General
 
-<p class="lead">Esto es una demo de cómo plantearía ahora mismo una acción formativa de e-Learning. Obviamente, no cubre todas las necesidades de todos los cursos posibles. Es una muestra de lo que se puede hacer con los estándares (HTML, CSS, JavaScript) actuales. Aunque, siendo modesto, sería más adecuado afirmar que **esto es lo que yo sé hacer** con los estándares.</p>
+<p class="lead">Esto es una demo de cómo plantearía ahora mismo una acción formativa de e-Learning.</p>
+
+Obviamente, no cubre todas las necesidades de todos los cursos posibles. Es una muestra de lo que se puede hacer con los estándares (HTML, CSS, JavaScript) actuales. Aunque, siendo modesto, sería más adecuado afirmar que **esto es lo que yo sé hacer** con los estándares.
 
 
 
@@ -61,6 +63,12 @@ Los navegadores de verdad (ya saben a lo que me refiero) tienen ajustada la comp
     <div class="color-block">
       <span style="background: #1565c0"></span>
       #1565c0
+    </div>
+  </div>
+  <div class="column">
+    <div class="color-block">
+      <span style="background: #256689"></span>
+      #256689
     </div>
   </div>
   <div class="column">
