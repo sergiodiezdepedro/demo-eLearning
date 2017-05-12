@@ -81,6 +81,8 @@ $punto-ruptura-3: 769px;
 @import "mi-slider";
 @import "icono-abrir-canvas";
 @import "offcanvas";
+@import "big-panel";
+@import "tarjeta-con-icono";
 
 .parrafo-ubuntu {
   font-size: 1.3rem;
@@ -113,7 +115,7 @@ $punto-ruptura-3: 769px;
 
 .contenedor-general-flex {
   margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   display: flex;
   @media screen and (max-width: $punto-ruptura-1) {
     flex-direction: column;
@@ -128,6 +130,14 @@ $punto-ruptura-3: 769px;
 
 .margin-top {
   margin-top: 2rem;
+}
+
+.bgazul {
+  background-color: $color-destacado-2;
+}
+
+.bggris {
+  background-color: lighten($color-light-darken, 10%);
 }
 
 .texto-destacado {

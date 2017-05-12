@@ -1,0 +1,35 @@
+.tarjeta-con-icono {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border: 1px solid rgba($color-destacado, .25);
+  border-radius: 5px;
+  padding: 1.5rem;
+  box-shadow: 0 5px 5px rgba($color-dark, .3);
+  @media screen and (max-width: $punto-ruptura-1) {
+    margin-bottom: 1.5rem;
+  }
+}
+
+.tarjeta-con-icono-33 {
+  @media screen and (min-width: $punto-ruptura-2) {
+    width: 33%;
+  }
+}
+
+.tarjeta-con-icono__contenedor-icono {
+  text-align: center;
+}
+
+.tarjeta-con-icono__icono {
+  font-size: 3.5rem;
+  color: $color-light;
+  border: 2px solid $color-light;
+  padding: 1.3rem;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.tarjeta-con-icono__parrafo {
+  font-size: 1.2rem;
+  color: $color-dark;
+}

@@ -1,0 +1,46 @@
+.big-panel__contenedor {
+  margin-bottom: 3rem;
+  border-top: 3px solid rgba($color-dark, .3);
+  position: relative;
+  @media screen and (max-width: $punto-ruptura-1) {
+    padding: 1rem 1.5rem;
+  }
+  @media screen and (min-width: $punto-ruptura-2) {
+    padding: 3rem 10rem;
+  }
+
+  &::after {
+    content: "";
+    background: #000;
+    border-radius: 25%;
+    bottom: 1%;
+    box-shadow: 0 7px 9px #000;
+    height: 90px;
+    left: 10px;
+    position: absolute;
+    width: 100%;
+    z-index: -10;
+  }
+}
+
+.big-panel__texto-principal {
+  font-family: $fuente-serif;
+  margin-bottom: 3rem;
+  color: $color-light;
+  @media screen and (max-width: $punto-ruptura-1) {
+    font-size: 2rem;
+  }
+  @media screen and (min-width: $punto-ruptura-2) {
+    font-size: 3rem;
+  }
+}
+
+.big-panel__texto-secundario {
+  color: darken($color-light, 7%);
+  @media screen and (max-width: $punto-ruptura-1) {
+    font-size: 1.2rem;
+  }
+  @media screen and (min-width: $punto-ruptura-2) {
+    font-size: 1.5rem;
+  }
+}
