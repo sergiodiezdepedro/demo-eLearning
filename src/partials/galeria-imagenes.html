@@ -1,0 +1,21 @@
+<div class="row">
+  <div class="large-12 columns contenedor-galeria-con-leyenda">
+    <div class="cabecera-galeria">
+      <h3 class="cabecera-galeria__texto">
+        {{cabecera-galeria-texto}}
+      </h3>
+    </div>
+  </div>
+</div>
+<div class="row small-up-1 medium-up-2 large-up-3">
+  {{#ifequal type 'galeria1'}}
+  {{#each datos-modulo1unidad1.galeria1}}
+  <div class="column column-block">
+    <div class="contenedor-aparece-leyenda">
+      <img class="aparece-leyenda__imagen" src="{{root}}assets/img/{{aparece-leyenda-imagen}}" alt="{{aparece-leyenda-imagen-alt}}">
+      <p class="aparece-leyenda__texto">{{aparece-leyenda-texto}}</p>
+    </div>
+  </div>
+  {{/each}}
+  {{/ifequal}}
+</div>

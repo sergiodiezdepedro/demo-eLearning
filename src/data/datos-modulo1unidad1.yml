@@ -3,3 +3,53 @@ modal1:
     parrafo-modal: Ei his quas phaedrum, efficiantur mediocritatem ne sed, hinc oratio blandit ei sed. Blandit gloriatur eam et. Brute noluisse per et, verear disputando neglegentur at quo. Sea quem legere ei, unum soluta ne duo. Ludus complectitur quo te, ut vide autem homero pro.
   -
     parrafo-modal: Nam sagittis at ante at fermentum. Donec mollis sapien eu laoreet maximus. Phasellus tincidunt lacus at finibus auctor. Praesent tincidunt pellentesque ligula vitae porta.
+
+galeria1:
+  -
+    aparece-leyenda-imagen: galeria01.jpg
+    aparece-leyenda-imagen-alt: Trabajo
+    aparece-leyenda-texto: Morbi lobortis velit et metus convallis, et placerat orci porta. Curabitur aliquam a augue congue fringilla. Integer in felis ut erat fermentum porta in nec lectus.
+  -
+    aparece-leyenda-imagen: galeria02.jpg
+    aparece-leyenda-imagen-alt: Edificios
+    aparece-leyenda-texto: Donec vitae leo efficitur, accumsan felis at, pulvinar leo. Phasellus a nibh at odio molestie dictum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+  -
+    aparece-leyenda-imagen: galeria03.jpg
+    aparece-leyenda-imagen-alt: Información de negocios
+    aparece-leyenda-texto: Sollicitudin arcu, eu tincidunt dui tortor vel dui. Sed dignissim nec urna maximus tincidunt. Vivamus sapien libero, eleifend nec elementum.
+  -
+    aparece-leyenda-imagen: galeria04.jpg
+    aparece-leyenda-imagen-alt: Urbano
+    aparece-leyenda-texto: Vulputate neque eu, tempus justo. Sed arcu enim, tincidunt efficitur sapien ac, dictum hendrerit velit. Morbi pellentesque faucibus felis, eget tempor ante dictum dictum. Phasellus molestie at mi sagittis porta.
+  -
+    aparece-leyenda-imagen: galeria05.jpg
+    aparece-leyenda-imagen-alt: Libro
+    aparece-leyenda-texto: Sodales, ante nisl sollicitudin arcu, eu tincidunt dui tortor vel dui. Sed dignissim nec urna maximus tincidunt. Vivamus sapien libero, eleifend nec elementum ac, maximus vel sem.
+  -
+    aparece-leyenda-imagen: galeria06.jpg
+    aparece-leyenda-imagen-alt: Documentos
+    aparece-leyenda-texto: Duis rutrum odio a quam tempor vestibulum. In elementum lorem non lacus pellentesque convallis. Nunc volutpat luctus elit, in vehicula ipsum posuere id. Morbi sed laoreet risus.
+  -
+    aparece-leyenda-imagen: galeria07.jpg
+    aparece-leyenda-imagen-alt: Ventanas
+    aparece-leyenda-texto: Eu elementum eu, mollis vitae est. Donec eu ante congue, ornare nunc quis, sollicitudin tellus. Nam vehicula diam auctor tortor faucibus, eu hendrerit elit vestibulum. Nunc finibus magna at scelerisque commodo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+  -
+    aparece-leyenda-imagen: galeria08.jpg
+    aparece-leyenda-imagen-alt: Logística
+    aparece-leyenda-texto: Sit amet scelerisque. Sed eu enim risus. Quisque non lorem pharetra, finibus nibh et, viverra lectus. Vestibulum sed libero at sapien
+  -
+    aparece-leyenda-imagen: galeria09.jpg
+    aparece-leyenda-imagen-alt: Mall
+    aparece-leyenda-texto: In consequat vel est sit amet scelerisque. Sed eu enim risus. Quisque non lorem pharetra, finibus nibh et, viverra lectus.
+  -
+    aparece-leyenda-imagen: galeria10.jpg
+    aparece-leyenda-imagen-alt: Firma
+    aparece-leyenda-texto: Fames ac ante ipsum primis in faucibus. Proin tempus varius nulla sit amet euismod. Aenean sit amet tempus lorem. Sed ac malesuada metus.
+  -
+    aparece-leyenda-imagen: galeria11.jpg
+    aparece-leyenda-imagen-alt: Planos
+    aparece-leyenda-texto: Feugiat dapibus libero et, maximus quam. Phasellus quis scelerisque lorem. Nulla facilisis sodales accumsan. Vestibulum et ante cursus, faucibus quam sit amet, pretium tellus.
+  -
+    aparece-leyenda-imagen: galeria12.jpg
+    aparece-leyenda-imagen-alt: Industria
+    aparece-leyenda-texto: Aliquam viverra porttitor blandit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin tempus varius nulla sit amet euismod. Aenean sit amet tempus lorem.

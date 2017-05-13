@@ -11,9 +11,14 @@
 }
 
 .jumbo {
+  margin-bottom: 3rem;
   padding: 5em;
-  border-radius: 5px;
   background-size: cover;
+  border-radius: 5px;
+}
+
+.jumbo-expanded {
+  border-radius: 0;
 }
 
 .contenedor-jumbo {
@@ -32,7 +37,7 @@
   font-size: 2.5em;
 }
 
-.jumbo-full-width {
+.jumbo-inicio-modulo {
   background-size: cover;
 
   &__contenedor {

@@ -3,86 +3,18 @@ layout: no-canvas
 modulo: Módulo 1
 unidad: Unidad 1
 titulo-pagina: Home Curso
-link-inicio-curso: index.html
-link-inicio-modulo: inicio-modulo.html
-link-inicio-unidad: inicio-unidad.html
 siguiente: Inicio Módulo 1
 link-siguiente: inicio-modulo.html
+cabecera-jumbo: Título del curso
 jumbo-id: jumbo1
 ---
 <div class="contenedor-principal">
   <div class="row">
     <div class="small-12 large-9 columns">
-      <div class="row jumbo" id="{{jumbo-id}}">
-        <div class="contenedor-jumbo">
-          <h2 class="cabecera-jumbo">Título del curso</h2>
-        </div>
-      </div>
+      {{> jumbo type='normal'}}
     </div>
     <div class="small-12 large-3 columns">
-      <div class="accordion" data-accordion data-allow-all-closed="true">
-        <div class="accordion-item acordeon-menu" data-accordion-item>
-          <a href="#" class="accordion-title acordeon-menu__titulo">Módulo 1</a>
-          <div class="accordion-content" data-tab-content>
-            <ul class="unidades">
-              <li><a href="{{root}}inicio-unidad.html">Unidad 1</a></li>
-              <li><a href="#">Unidad 2</a></li>
-              <li><a href="#">Unidad 3</a></li>
-              <li><a href="#">Unidad 4</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="accordion-item acordeon-menu" data-accordion-item>
-          <a href="#" class="accordion-title acordeon-menu__titulo">Módulo 2</a>
-          <div class="accordion-content" data-tab-content>
-            <ul class="unidades">
-              <li><a href="#">Unidad 1</a></li>
-              <li><a href="#">Unidad 2</a></li>
-              <li><a href="#">Unidad 3</a></li>
-              <li><a href="#">Unidad 4</a></li>
-              <li><a href="#">Unidad 5</a></li>
-              <li><a href="#">Unidad 6</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="accordion-item acordeon-menu" data-accordion-item>
-          <a href="#" class="accordion-title acordeon-menu__titulo">Módulo 3</a>
-          <div class="accordion-content" data-tab-content>
-            <ul class="unidades">
-              <li><a href="#">Unidad 1</a></li>
-              <li><a href="#">Unidad 2</a></li>
-              <li><a href="#">Unidad 3</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="accordion-item acordeon-menu" data-accordion-item>
-          <a href="#" class="accordion-title acordeon-menu__titulo">Módulo 4</a>
-          <div class="accordion-content" data-tab-content>
-            <ul class="unidades">
-              <li><a href="#">Unidad 1</a></li>
-              <li><a href="#">Unidad 2</a></li>
-              <li><a href="#">Unidad 3</a></li>
-              <li><a href="#">Unidad 4</a></li>
-              <li><a href="#">Unidad 5</a></li>
-              <li><a href="#">Unidad 6</a></li>
-              <li><a href="#">Unidad 7</a></li>
-              <li><a href="#">Unidad 8</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="accordion-item acordeon-menu" data-accordion-item>
-          <a href="#" class="accordion-title acordeon-menu__titulo">Módulo 5</a>
-          <div class="accordion-content" data-tab-content>
-            <ul class="unidades">
-              <li><a href="#">Unidad 1</a></li>
-              <li><a href="#">Unidad 2</a></li>
-              <li><a href="#">Unidad 3</a></li>
-              <li><a href="#">Unidad 4</a></li>
-              <li><a href="#">Unidad 5</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
+      {{> acordeon-curso}}
     </div>
   </div>
   <div class="row pestanas">

@@ -10,11 +10,15 @@
       <li><a class="menu__link" href="#">Campus</a></li>
     </ul>
   </div>
+  {{#unlesspage 'index'}}
   <div class="top-bar-right">
     <ul class="dropdown menu" data-dropdown-menu>
       <li><a class="menu__link" href="{{root}}{{link-inicio-curso}}">Inicio Curso</a></li>
+      {{#unlesspage 'inicio-modulo'}}
       <li><a class="menu__link" href="{{root}}{{link-inicio-modulo}}">Inicio Módulo</a></li>
-      <li><a class="menu__link" href="{{root}}{{link-inicio-unidad}}">Inicio Unidades</a></li>
+      {{/unlesspage}}
+      <li><a class="menu__link" href="{{root}}{{link-inicio-unidad}}">Inicio Unidad</a></li>
     </ul>
   </div>
+  {{/unlesspage}}
 </div>

@@ -1,0 +1,33 @@
+.contenedor-galeria-con-leyenda {
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+}
+
+.cabecera-galeria__texto {
+	color: $color-destacado;
+}
+
+.contenedor-aparece-leyenda {
+	cursor: pointer;
+	position: relative;
+	height: 18.75rem;
+	width: 18.75rem;
+	overflow: hidden;
+	border-radius: 5px;
+}
+
+.aparece-leyenda__texto {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	padding: 1rem;
+	border-radius: 5px;
+	box-sizing: border-box;
+	background: rgba($color-destacado-2, .8);
+	color: $color-light;
+	transition: 0.5s ease-in-out;
+}
+
+.contenedor-aparece-leyenda:hover .aparece-leyenda__texto {
+	transform: translateY(-300px);
+}
