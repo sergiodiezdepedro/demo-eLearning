@@ -64,6 +64,7 @@ $fuente-sans-serif: 'Ubuntu', sans-serif;
 $punto-ruptura-1: 768px;
 $punto-ruptura-2: 1024px;
 $punto-ruptura-3: 769px;
+@import "botones";
 @import "cabecera";
 @import "navegacion";
 @import "migas";
@@ -84,7 +85,7 @@ $punto-ruptura-3: 769px;
 @import "big-panel";
 @import "tarjeta-con-icono";
 @import "galeria-con-leyenda";
-
+@import "esquema";
 .parrafo-ubuntu {
   font-size: 1.3rem;
   font-family: 'Ubuntu', sans-serif;
@@ -127,6 +128,13 @@ $punto-ruptura-3: 769px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.wrapper90 {
+  width: 90%;
+  margin: 1rem auto 2rem;
+  display: flex;
+  justify-content: center;
 }
 
 .margin-top {
@@ -199,7 +207,13 @@ $punto-ruptura-3: 769px;
 }
 
 .oculta-small {
-  @media screen and(max-width: $punto-ruptura-1) {
+  @media screen and(max-width: $punto-ruptura-1 - 1) {
+    display: none;
+  }
+}
+
+.solo-small {
+  @media screen and (min-width: $punto-ruptura-1 ) {
     display: none;
   }
 }

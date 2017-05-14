@@ -3,5 +3,5 @@ dist
 node_modules
 npm-debug.log
 bower_components
-imagenes_auxiliares
+material_auxiliar
 *.swp

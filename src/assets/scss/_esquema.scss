@@ -1,0 +1,110 @@
+.contenedor-esquema-large-format {
+  position: relative;
+  @media screen and (max-width: $punto-ruptura-1 - 1) {
+    display: none;
+  }
+  @media (min-width: $punto-ruptura-1) and (max-width: $punto-ruptura-2) {
+    font-size: 0.8rem;
+  }
+}
+
+.contenedor-esquema-solo-small {
+  @media screen and (min-width: $punto-ruptura-1 ) {
+    display: none;
+  }
+}
+
+.cabecera-esquema__texto {
+  color: $color-destacado;
+}
+
+.parrafo-esquema {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  color: $color-destacado;
+}
+
+.mi-tooltip {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  background-color: $color-dark;
+  color: $color-light;
+  padding: 0.2rem 0.6rem 0.2rem 0.5rem;
+  border-radius: 5px;
+}
+
+.pf1 {
+  top: 22%;
+  left: 2%;
+}
+
+.pf2 {
+  top: 46%;
+  left: 2%;
+}
+
+.pf3 {
+  top: 69%;
+  left: 2%;
+}
+
+.pf4 {
+  top: 92%;
+  left: 2%;
+}
+
+.pf5 {
+  top: 24%;
+  left: 33%;
+}
+
+.pf6 {
+  top: 43%;
+  left: 46%;
+}
+
+.pf7 {
+  top: 89%;
+  left: 43%;
+}
+
+.pf8 {
+  top: 15%;
+  left: 69%;
+}
+
+.pf9 {
+  top: 25%;
+  left: 69%;
+}
+
+.pf10 {
+  top: 35%;
+  left: 69%;
+}
+
+.pf11 {
+  top: 47%;
+  left: 69%;
+}
+
+.pf12 {
+  top: 59%;
+  left: 69%;
+}
+
+.pf13 {
+  top: 69%;
+  left: 69%;
+}
+
+.pf14 {
+  top: 79%;
+  left: 69%;
+}
+
+.pf15 {
+  top: 89%;
+  left: 69%;
+}
