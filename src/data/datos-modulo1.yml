@@ -46,3 +46,9 @@ paginas-unidad1:
   -
     link-pagina: pagina11.html
     titulo-pagina: Página 11
+  -
+    link-pagina: pagina12.html
+    titulo-pagina: Página 12
+  -
+    link-pagina: pagina13.html
+    titulo-pagina: Página 13

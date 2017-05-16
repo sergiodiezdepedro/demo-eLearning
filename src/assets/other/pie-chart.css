@@ -1,0 +1,16 @@
+.contenedor-pie-chart{width:275px;height:275px;background:#f15854;margin:0 auto;border-radius:50%;overflow:hidden;position:relative;transform:rotate(81deg)}
+.contenedor-pie-chart .d1{width:550px;height:550px;position:absolute;top:-137.5px;left:-137.5px;transform:rotate(0deg)}.contenedor-pie-chart .d1 div{width:550px;height:550px}
+.contenedor-pie-chart .d1 div:after{content:'';width:0;height:0;display:block;border:solid transparent;border-width:275px;border-top-color:#f15854;position:relative;transform:scaleX(6.31375)}
+.contenedor-pie-chart .d1 div span{font-family:sans-serif;display:block;width:100%;position:absolute;left:0;top:34%;font-size:14px;text-align:center;z-index:100;color:#fff;transform:rotate(-81deg)}
+.contenedor-pie-chart .d2{width:550px;height:550px;position:absolute;top:-137.5px;left:-137.5px;transform:rotate(127.8deg)}.contenedor-pie-chart .d2 div{width:550px;height:550px}
+.contenedor-pie-chart .d2 div:after{content:'';width:0;height:0;display:block;border:solid transparent;border-width:275px;border-top-color:#faa43a;position:relative;transform:scaleX(1.06489)}
+.contenedor-pie-chart .d2 div span{font-family:sans-serif;display:block;width:100%;position:absolute;left:0;top:34%;font-size:14px;text-align:center;z-index:100;color:#fff;transform:rotate(-208.8deg)}
+.contenedor-pie-chart .d3{width:550px;height:550px;position:absolute;top:-137.5px;left:-137.5px;transform:rotate(196.2deg)}.contenedor-pie-chart .d3 div{width:550px;height:550px}
+.contenedor-pie-chart .d3 div:after{content:'';width:0;height:0;display:block;border:solid transparent;border-width:275px;border-top-color:#60bd68;position:relative;transform:scaleX(0.39593)}
+.contenedor-pie-chart .d3 div span{font-family:sans-serif;display:block;width:100%;position:absolute;left:0;top:34%;font-size:14px;text-align:center;z-index:100;color:#fff;transform:rotate(-277.2deg)}
+.contenedor-pie-chart .d4{width:550px;height:550px;position:absolute;top:-137.5px;left:-137.5px;transform:rotate(230.4deg)}.contenedor-pie-chart .d4 div{width:550px;height:550px}
+.contenedor-pie-chart .d4 div:after{content:'';width:0;height:0;display:block;border:solid transparent;border-width:275px;border-top-color:#5da5da;position:relative;transform:scaleX(0.22353)}
+.contenedor-pie-chart .d4 div span{font-family:sans-serif;display:block;width:100%;position:absolute;left:0;top:34%;font-size:14px;text-align:center;z-index:100;color:#fff;transform:rotate(-311.4deg)}
+.contenedor-pie-chart .d5{width:550px;height:550px;position:absolute;top:-137.5px;left:-137.5px;transform:rotate(261deg)}.contenedor-pie-chart .d5 div{width:550px;height:550px}
+.contenedor-pie-chart .d5 div:after{content:'';width:0;height:0;display:block;border:solid transparent;border-width:275px;border-top-color:#b2912f;position:relative;transform:scaleX(0.32492)}
+.contenedor-pie-chart .d5 div span{font-family:sans-serif;display:block;width:100%;position:absolute;left:0;top:34%;font-size:14px;text-align:center;z-index:100;color:#fff;transform:rotate(-342deg)}

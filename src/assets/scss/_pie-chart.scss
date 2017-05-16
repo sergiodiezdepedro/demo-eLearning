@@ -1,0 +1,83 @@
+// Todo lo necesario para dar estilo al gráfico se define en el archivo 'dist/assets/other/pie-chart.css', generado mediante Compass en proyecto/carpeta aparte (ubicada en la carpeta 'material_auxiliar'). Estos estilos son simplemente para su encaje en la página y los estilos para la leyenda
+@mixin color-leyenda($bgc) {
+  background-color: $bgc;
+}
+
+.fondo-oscuro-pie-chart {
+  display: flex;
+  padding: 2rem 0;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+  background-color: $color-dark;
+  @media screen and (max-width: $punto-ruptura-1 - 1) {
+    flex-direction: column;
+  }
+  @media screen and (min-width: $punto-ruptura-1) {
+    flex-direction: row;
+  }
+}
+
+.div-leyenda,
+.div-pie {
+  display: flex;
+  @media screen and (max-width: $punto-ruptura-1 - 1) {
+    width: 100%;
+  }
+  @media screen and (min-width: $punto-ruptura-1) {
+    width: 50%;
+  }
+}
+
+.div-leyenda {
+  display: flex;
+  flex-direction: column;
+  @media screen and (max-width: $punto-ruptura-1) {
+    align-items: center;
+  }
+
+  &__item {
+    display: flex;
+    margin: 0.5rem 0;
+
+    &:first-child {
+      @media screen and (max-width: $punto-ruptura-1 - 1) {
+        margin-top: 1.5rem;
+      }
+      @media screen and (min-width: $punto-ruptura-1) {
+        margin-top: 1rem;
+      }
+    }
+
+    &__color {
+      width: rem-calc(25);
+      height: rem-calc(25);
+      margin-right: 0.8rem;
+      border-radius: 3px;
+      border: 1px solid $color-light;
+    }
+
+    &__texto {
+      color: $color-light;
+    }
+  }
+}
+
+.pie-red {
+  @include color-leyenda(#f15854);
+}
+
+.pie-naranja {
+  @include color-leyenda(#faa43a);
+}
+
+.pie-verde {
+  @include color-leyenda(#60bd68);
+}
+
+.pie-azul {
+  @include color-leyenda(#5da5da);
+}
+
+.pie-marron {
+  @include color-leyenda(#b2912f);
+}

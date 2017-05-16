@@ -1,0 +1,55 @@
+---
+titulo-pagina: Página 12
+modulo: Módulo 1
+unidad: Unidad 1
+link-inicio-curso: index.html
+link-inicio-modulo: inicio-modulo.html
+link-inicio-unidad: inicio-unidad.html
+previo: Página 11
+link-previo: pagina11.html
+siguiente: Página 13
+link-siguiente: pagina13.html
+---
+{{> off-canvas type="unidad1"}}
+<div class="contenedor-principal">
+  {{> migas}}
+  <div class="row">
+    <div class="large-12 columns">
+      <h2 class="cabecera-pagina">Título del Tema</h2>
+    </div>
+  </div>
+  <div class="row" data-equalizer>
+    <div class="large-4 columns">
+      <div class="parrafo-degradado" data-equalizer-watch>
+        <h3 class="parrafo-h3">
+          <i class="fa fa-quote-left"></i>
+          Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus, perferendis cum cupiditate rem sit iusto laudantium <i class="fa fa-quote-right"></i>.
+        </h3>
+      </div>
+    </div>
+    <div class="large-4 columns">
+      <div data-equalizer-watch>
+        <div class="contenedor-centrar-horizontal">
+          <img class="profesor-tronco" src="{{root}}assets/img/profesor2.png" alt="Profesor">
+        </div>
+      </div>
+    </div>
+    <div class="large-4 columns">
+      <div class="parrafo-degradado" data-equalizer-watch>
+        <div class="contenedor-centrar-horizontal">
+          <h3 class="cabecera-parrafo-degradado"><i class="fa fa-flash"></i>Conceptos clave
+          </h3>
+        </div>
+        <ul class="parrafo-degradado__lista">
+          <li class="parrafo-degradado__lista__item"><i class="fa fa-asterisk"></i>Lorem ipsum</li>
+          <li class="parrafo-degradado__lista__item"><i class="fa fa-asterisk"></i>Tincidunt urna</li>
+          <li class="parrafo-degradado__lista__item"><i class="fa fa-asterisk"></i>Curabitur</li>
+          <li class="parrafo-degradado__lista__item"><i class="fa fa-asterisk"></i>Placerat diam metus</li>
+          <li class="parrafo-degradado__lista__item"><i class="fa fa-asterisk"></i>Cras eget</li>
+          <li class="parrafo-degradado__lista__item"><i class="fa fa-asterisk"></i>Praesent gravida laoreet nulla</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+{{> footer type='footer-normal'}}

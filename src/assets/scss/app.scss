@@ -44,7 +44,7 @@
 @include foundation-top-bar;
 @include foundation-visibility-classes;
 @include foundation-float-classes;
-// @include foundation-flex-classes;
+ // @include foundation-flex-classes;
 @include motion-ui-transitions;
 @include motion-ui-animations;
 @import url( 'https://fonts.googleapis.com/css?family=Lora|Ubuntu');
@@ -64,6 +64,7 @@ $fuente-sans-serif: 'Ubuntu', sans-serif;
 $punto-ruptura-1: 768px;
 $punto-ruptura-2: 1024px;
 $punto-ruptura-3: 769px;
+@import "mixins";
 @import "botones";
 @import "cabecera";
 @import "navegacion";
@@ -86,9 +87,50 @@ $punto-ruptura-3: 769px;
 @import "tarjeta-con-icono";
 @import "galeria-con-leyenda";
 @import "esquema";
+@import "porcentaje-circular";
+@import "grafico-barras";
+@import "cifras-brutas";
+@import "pie-chart";
+.parrafo-h3 {
+  @include parrafo($fuente-serif, 2rem, 1.5rem);
+}
+
+.parrafo-degradado {
+  border-radius: 10px;
+  @include degradado($color-dark,$color-light-darken, #fff);
+
+  &__lista {
+    list-style: none;
+    margin-top: 1.5rem;
+    padding-left: 1rem;
+  }
+
+  &__lista__item {
+    color: lighten($color-dark, 18%);
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+
+    i {
+      color: $color-light;
+      margin-right: 0.3rem;
+    }
+  }
+}
+
+.cabecera-parrafo-degradado {
+  text-transform: uppercase;
+  padding: 1rem 0.5rem 0.5rem;
+  border-bottom: 1px solid rgba($color-light, .33);
+
+  i {
+    margin-right: 0.7rem;
+    color: $color-light;
+  }
+}
+
 .parrafo-ubuntu {
   font-size: 1.3rem;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: $fuente-sans-serif;
 }
 
 .parrafo-lora {
@@ -137,6 +179,11 @@ $punto-ruptura-3: 769px;
   justify-content: center;
 }
 
+.cabecera-pagina {
+  margin-bottom: 2rem;
+  color: $color-destacado;
+}
+
 .margin-top {
   margin-top: 2rem;
 }
@@ -147,6 +194,10 @@ $punto-ruptura-3: 769px;
 
 .bggris {
   background-color: lighten($color-light-darken, 10%);
+}
+
+.bggris-oscuro {
+  background-color: darken($color-light-darken, 15%);
 }
 
 .texto-destacado {
@@ -231,4 +282,16 @@ $punto-ruptura-3: 769px;
   background-image: url('../img/fondo01.jpg');
   background-size: cover;
   border-radius: 5px;
+}
+
+.profesor-tronco {
+  max-height: rem-calc(500);
+}
+
+.variable-estadisticas {
+  color: $color-light-darken;
+  border-bottom: 1px solid $color-light-darken;
+  padding-bottom: 0.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
 }
