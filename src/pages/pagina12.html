@@ -9,15 +9,12 @@ previo: Página 11
 link-previo: pagina11.html
 siguiente: Página 13
 link-siguiente: pagina13.html
+texto-cabecera-pagina: Título del Tema
 ---
 {{> off-canvas type="unidad1"}}
 <div class="contenedor-principal">
   {{> migas}}
-  <div class="row">
-    <div class="large-12 columns">
-      <h2 class="cabecera-pagina">Título del Tema</h2>
-    </div>
-  </div>
+  {{> cabecera-pagina}}
   <div class="row" data-equalizer>
     <div class="large-4 columns">
       <div class="parrafo-degradado" data-equalizer-watch>

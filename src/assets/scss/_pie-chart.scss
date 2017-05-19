@@ -1,4 +1,9 @@
 // Todo lo necesario para dar estilo al gráfico se define en el archivo 'dist/assets/other/pie-chart.css', generado mediante Compass en proyecto/carpeta aparte (ubicada en la carpeta 'material_auxiliar'). Estos estilos son simplemente para su encaje en la página y los estilos para la leyenda
+$p-rojo: #f15854;
+$p-naranja: #faa43a;
+$p-verde: #60bd68;
+$p-azul: #5da5da;
+$p-marron: #b2912f;
 @mixin color-leyenda($bgc) {
   background-color: $bgc;
 }
@@ -52,7 +57,6 @@
       width: rem-calc(25);
       height: rem-calc(25);
       margin-right: 0.8rem;
-      border-radius: 3px;
       border: 1px solid $color-light;
     }
 
@@ -63,21 +67,21 @@
 }
 
 .pie-red {
-  @include color-leyenda(#f15854);
+  @include color-leyenda($p-rojo);
 }
 
 .pie-naranja {
-  @include color-leyenda(#faa43a);
+  @include color-leyenda($p-naranja);
 }
 
 .pie-verde {
-  @include color-leyenda(#60bd68);
+  @include color-leyenda($p-verde);
 }
 
 .pie-azul {
-  @include color-leyenda(#5da5da);
+  @include color-leyenda($p-azul);
 }
 
 .pie-marron {
-  @include color-leyenda(#b2912f);
+  @include color-leyenda($p-marron);
 }

@@ -44,7 +44,7 @@
 @include foundation-top-bar;
 @include foundation-visibility-classes;
 @include foundation-float-classes;
- // @include foundation-flex-classes;
+// @include foundation-flex-classes;
 @include motion-ui-transitions;
 @include motion-ui-animations;
 @import url( 'https://fonts.googleapis.com/css?family=Lora|Ubuntu');
@@ -91,6 +91,7 @@ $punto-ruptura-3: 769px;
 @import "grafico-barras";
 @import "cifras-brutas";
 @import "pie-chart";
+@import "grupo-fieldset";
 .parrafo-h3 {
   @include parrafo($fuente-serif, 2rem, 1.5rem);
 }
@@ -277,7 +278,7 @@ $punto-ruptura-3: 769px;
   }
 }
 
-.div-fondo-imagen {
+.div-fondo-imagen-01 {
   width: 40%;
   background-image: url('../img/fondo01.jpg');
   background-size: cover;

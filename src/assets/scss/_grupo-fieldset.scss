@@ -1,0 +1,53 @@
+.grupo-fieldset {
+  border: 2px solid $color-complementario;
+  border-radius: 5px;
+  @media screen and (max-width: $punto-ruptura-2) {
+    margin: 1rem;
+  }
+
+  &__leyenda {
+    color: $color-destacado-2;
+    @media screen and (min-width: $punto-ruptura-1) {
+      font-size: 1.5rem;
+    }
+  }
+
+  &__lista {
+    list-style: none;
+    font-size: 1.1rem;
+    margin-left: 0;
+
+    &__item {
+      margin-bottom: 0.6rem;
+
+      &-bold {
+        font-weight: bold;
+        color: $color-destacado;
+      }
+    }
+
+    i {
+      color: $color-destacado-2;
+      margin-right: 0.3rem;
+    }
+  }
+
+  &__parrafo {
+    font-size: 1.1rem;
+  }
+
+  &__link {
+    padding: 0.3rem;
+    color: $color-links;
+    border-radius: 3px;
+
+    &:focus {
+      color: $color-links;
+    }
+
+    &:hover {
+      color: $color-links;
+      background-color: lighten($color-light-darken, 27%);
+    }
+  }
+}

@@ -10,14 +10,12 @@ previo: Página 12
 link-previo: pagina12.html
 siguiente: Página 14
 link-siguiente: pagina14.html
+texto-cabecera-pagina: Estadísticas
 ---
 {{> off-canvas type="unidad1"}}
-<div class="contenedor-principal"> {{> migas}}
-  <div class="row">
-    <div class="large-12 columns">
-      <h2 class="cabecera-pagina">Estadísticas</h2>
-    </div>
-  </div>
+<div class="contenedor-principal">
+  {{> migas}}
+  {{> cabecera-pagina}}
   <div class="row">
     <div class="large-12 columns">
       <div class="contenedor-centrar-horizontal">
@@ -171,7 +169,6 @@ link-siguiente: pagina14.html
       <p class="cifra-bruta__texto">Orci non nisi molestie</p>
     </div>
   </div>
-  <!-- PROBANDO -->
   <div class="row">
     <div class="large-12 columns">
       <div class="row">
@@ -220,6 +217,5 @@ link-siguiente: pagina14.html
       </div>
     </div>
   </div>
-  <!-- FIN PROBANDO -->
 </div>
 {{> footer type='footer-normal'}}
