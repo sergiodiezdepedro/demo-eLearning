@@ -92,6 +92,8 @@ $punto-ruptura-3: 769px;
 @import "cifras-brutas";
 @import "pie-chart";
 @import "grupo-fieldset";
+@import "styleguide";
+@import "quiz";
 .parrafo-h3 {
   @include parrafo($fuente-serif, 2rem, 1.5rem);
 }
@@ -128,17 +130,6 @@ $punto-ruptura-3: 769px;
     color: $color-light;
   }
 }
-
-.parrafo-ubuntu {
-  font-size: 1.3rem;
-  font-family: $fuente-sans-serif;
-}
-
-.parrafo-lora {
-  font-family: $fuente-serif;
-  font-size: 1.3rem;
-}
-
 .contenedor-principal {
   margin-top: 2rem;
 }

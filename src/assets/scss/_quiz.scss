@@ -1,0 +1,118 @@
+.cabecera-quiz__contenedor {
+  margin: 2rem 0;
+}
+
+.cabecera-quiz__contenedor-texto {
+  text-align: center;
+  margin: 2rem;
+  border-radius: 5px;
+  box-shadow: 1px 1px 30px rgba($color-dark, .5);
+  @media screen and(min-width: $punto-ruptura-1) {
+    padding: 1rem 2rem;
+  }
+  @media screen and(max-width: $punto-ruptura-1 - 1) {
+    padding: 1rem;
+  }
+}
+
+.imagen-quiz {
+  max-height: rem-calc(400);
+}
+
+.cabecera-quiz__texto {
+  text-transform: uppercase;
+  color: $color-light-darken;
+  @media screen and (max-width: $punto-ruptura-1 - 1) {
+    font-size: 2rem;
+  }
+  @media screen and (min-width: $punto-ruptura-1) {
+    font-size: 3.5rem;
+  }
+}
+
+.div-icono-quiz {
+  @media screen and (min-width: $punto-ruptura-1) {
+    text-align: right;
+  }
+}
+
+.icono-quiz {
+  padding: 0.7rem 0.5rem 0.6rem 0.7rem;
+  border-radius: 50%;
+  background-color: lighten($color-destacado-2, 15%);
+  color: $color-light;
+  font-size: 1.5rem;
+  @media screen and (max-width: $punto-ruptura-1 - 1) {
+    margin-bottom: 1rem;
+  }
+}
+
+.contenedor-quiz {
+  margin: 2rem 0;
+  border: 3px solid rgba($color-destacado, .25);
+  background-color: lighten($color-complementario, 20%);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  @media screen and (min-width: $punto-ruptura-1) {
+    padding: 2rem 0 2rem 2rem;
+  }
+  @media screen and (max-width: $punto-ruptura-1 - 1) {
+    padding: 1rem 0.3rem 1rem 0;
+  }
+}
+
+.cabecera-pregunta {
+  padding: 0 0 0.2rem 1.5rem;
+  margin-bottom: 1rem;
+  color: $color-destacado;
+}
+
+.texto-pregunta {
+  font-weight: bold;
+  color: $color-destacado-3;
+  font-size: 1.1rem;
+  padding-left: 1.5rem;
+}
+
+.lista-respuestas {
+  list-style-type: none;
+  padding: 0 0 0 2.5rem;
+  margin: 0;
+}
+
+.radio-quiz {
+  margin-right: 0.5rem;
+}
+
+.contenedor-botones {
+  display: flex;
+  flex-direction: row;
+}
+
+.boton-quiz {
+  background-color: $color-destacado-3;
+  border: 1px solid darken($color-destacado-3, 12%);
+  border-radius: 4px;
+  width: rem-calc(100);
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  text-align: center;
+  color: $color-light;
+  margin: 1rem;
+  cursor: pointer;
+
+  &.active {
+    background-color: $color-light;
+    color: $color-destacado-3;
+  }
+}
+
+#anterior {
+  display: none;
+}
+
+#start {
+  display: none;
+  width: rem-calc(100);
+}

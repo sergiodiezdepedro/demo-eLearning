@@ -1,0 +1,34 @@
+$color-fondo: #443d44;
+$color-fondo-h2: #302b30;
+
+.styleguide__contenedor-tipografia {
+  background-color: $color-fondo;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0 3rem;
+  padding: 7rem 0;
+  border-radius: 5px;
+}
+
+.styleguide__subcontenedor-tipografia {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 1rem 0;
+  background-color: $color-fondo-h2;
+}
+
+.styleguide__tipografia {
+  margin-bottom: 0;
+  font-size: 4rem;
+  color: $color-light;
+}
+
+.tipografia-ubuntu {
+  font-family: $fuente-sans-serif;
+}
+
+.tipografia-lora {
+  font-family: $fuente-serif;
+}

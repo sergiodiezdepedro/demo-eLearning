@@ -125,8 +125,21 @@ Los navegadores de verdad (ya saben a lo que me refiero) tienen ajustada la comp
 
 # Tipografía
 
-<p class="lead">En el proyecto se ha utilizado **Ubuntu** como fuente sans-serif y **Lora** como fuente serif.</p>
+<p class="lead">En el proyecto he utilizado **Ubuntu** como fuente sans-serif y **Lora** como fuente serif.</p>
 
-<p class="parrafo-ubuntu">Este es un párrafo con Ubuntu.</p>
-
-<p class="parrafo-lora">Este es un párrafo con Lora.</p>
+<div class="row">
+  <div class="large-6 small-12 columns">
+    <div class="styleguide__contenedor-tipografia">
+      <div class="styleguide__subcontenedor-tipografia">
+        <h2 class="styleguide__tipografia tipografia-ubuntu">Ubuntu</h2>
+      </div>
+    </div>
+  </div>
+  <div class="large-6 small-12 columns">
+    <div class="styleguide__contenedor-tipografia">
+      <div class="styleguide__subcontenedor-tipografia">
+        <h2 class="styleguide__tipografia tipografia-lora">Lora</h2>
+      </div>
+    </div>
+  </div>
+</div>

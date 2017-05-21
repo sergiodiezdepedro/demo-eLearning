@@ -9,13 +9,42 @@ previo: Página 14
 link-previo: pagina14.html
 siguiente: Página 16
 link-siguiente: pagina16.html
-texto-cabecera-pagina: Preguntas
 ---
 {{> off-canvas type="unidad1"}}
 <div class="contenedor-principal">
-  {{> migas}} {{> cabecera-pagina}}
+  {{> migas}}
   <div class="row">
-  
+    <div class="large-6 small-12 columns">
+      <img class="imagen-quiz" src="{{root}}assets/img/libro.png" alt="Libro">
+    </div>
+    <div class="large-6 small-12 columns">
+      <div class="cabecera-quiz__contenedor-texto">
+        <div class="div-icono-quiz">
+          <i class="fa fa-edit icono-quiz"></i>
+        </div>
+        <p class="cabecera-quiz__texto">Repaso</p>
+        <p class="cabecera-quiz__texto">de</p>
+        <p class="cabecera-quiz__texto">contenidos</p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="large-6 large-offset-3 columns">
+      <div class="contenedor-quiz">
+        <div id='quiz'></div>
+      		<div class="contenedor-botones">
+            <div class='boton-quiz' id='anterior'>
+              Anterior
+            </div>
+      		  <div class='boton-quiz' id='siguiente'>
+      		     Siguiente
+      		  </div>
+      		  <div class='boton-quiz' id='start'>
+      		     Empezar
+      		 </div>
+      	</div>
+      </div>
+    </div>
   </div>
 </div>
 {{> footer type='footer-normal'}}
