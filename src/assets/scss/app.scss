@@ -94,6 +94,7 @@ $punto-ruptura-3: 769px;
 @import "grupo-fieldset";
 @import "styleguide";
 @import "quiz";
+@import "carrusel";
 .parrafo-h3 {
   @include parrafo($fuente-serif, 2rem, 1.5rem);
 }
