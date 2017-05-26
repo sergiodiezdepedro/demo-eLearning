@@ -12,3 +12,7 @@
   border: 1px solid $color;
   background: linear-gradient(lighten($color, 10%), $color 70%);
 }
+
+@mixin margin-bottom($mb) {
+  margin-bottom: $mb;
+}

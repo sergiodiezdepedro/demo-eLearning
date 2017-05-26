@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 270.93333 270.93334"
+   height="1024"
+   width="1024">
+  <defs
+     id="defs2">
+    <symbol
+       id="ManualOperation">
+      <title
+         id="title30467">Manual Operation</title>
+      <desc
+         id="desc30469">An offline process (at &quot;human speed&quot;).</desc>
+      <path
+         id="path30471"
+         style="stroke-width:2px"
+         d="m 15,35 120,0 -30,80 -60,0 z" />
+    </symbol>
+    <symbol
+       viewBox="0 0 26 28"
+       id="icon-key">
+      <title
+         id="title11417">key</title>
+      <path
+         id="path11419"
+         d="M13 8c0-1.656-1.344-3-3-3s-3 1.344-3 3c0 0.453 0.109 0.891 0.297 1.297-0.406-0.187-0.844-0.297-1.297-0.297-1.656 0-3 1.344-3 3s1.344 3 3 3 3-1.344 3-3c0-0.453-0.109-0.891-0.297-1.297 0.406 0.187 0.844 0.297 1.297 0.297 1.656 0 3-1.344 3-3zM26.297 19c0 0.359-1.437 1.797-1.797 1.797-0.406 0-1.672-1.469-2-1.797l-1.5 1.5 3.437 3.437c0.281 0.281 0.438 0.672 0.438 1.062 0 0.875-1 1.875-1.875 1.875-0.391 0-0.781-0.156-1.062-0.438l-10.484-10.484c-1.641 1.219-3.641 2.047-5.703 2.047-3.406 0-5.75-2.359-5.75-5.75 0-5.125 5.125-10.25 10.25-10.25 3.391 0 5.75 2.344 5.75 5.75 0 2.063-0.828 4.062-2.047 5.703l5.547 5.547 1.5-1.5c-0.328-0.328-1.797-1.594-1.797-2 0-0.359 1.437-1.797 1.797-1.797 0.125 0 0.266 0.063 0.359 0.156 0.578 0.578 4.937 4.688 4.937 5.141z"
+         class="path1" />
+    </symbol>
+    <symbol
+       viewBox="0 0 30 28"
+       id="icon-group">
+      <title
+         id="title11637">group</title>
+      <path
+         id="path11639"
+         d="M9.266 14c-1.625 0.047-3.094 0.75-4.141 2h-2.094c-1.563 0-3.031-0.75-3.031-2.484 0-1.266-0.047-5.516 1.937-5.516 0.328 0 1.953 1.328 4.062 1.328 0.719 0 1.406-0.125 2.078-0.359-0.047 0.344-0.078 0.688-0.078 1.031 0 1.422 0.453 2.828 1.266 4zM26 23.953c0 2.531-1.672 4.047-4.172 4.047h-13.656c-2.5 0-4.172-1.516-4.172-4.047 0-3.531 0.828-8.953 5.406-8.953 0.531 0 2.469 2.172 5.594 2.172s5.063-2.172 5.594-2.172c4.578 0 5.406 5.422 5.406 8.953zM10 4c0 2.203-1.797 4-4 4s-4-1.797-4-4 1.797-4 4-4 4 1.797 4 4zM21 10c0 3.313-2.688 6-6 6s-6-2.688-6-6 2.688-6 6-6 6 2.688 6 6zM30 13.516c0 1.734-1.469 2.484-3.031 2.484h-2.094c-1.047-1.25-2.516-1.953-4.141-2 0.812-1.172 1.266-2.578 1.266-4 0-0.344-0.031-0.688-0.078-1.031 0.672 0.234 1.359 0.359 2.078 0.359 2.109 0 3.734-1.328 4.062-1.328 1.984 0 1.937 4.25 1.937 5.516zM28 4c0 2.203-1.797 4-4 4s-4-1.797-4-4 1.797-4 4-4 4 1.797 4 4z"
+         class="path1" />
+    </symbol>
+    <symbol
+       viewBox="0 0 30 28"
+       id="icon-money">
+      <title
+         id="title11742">money</title>
+      <path
+         id="path11744"
+         d="M12 18h6v-1.5h-2v-7h-1.781l-2.312 2.141 1.203 1.25c0.375-0.328 0.609-0.5 0.859-0.891h0.031v4.5h-2v1.5zM20 14c0 2.844-1.719 6.5-5 6.5s-5-3.656-5-6.5 1.719-6.5 5-6.5 5 3.656 5 6.5zM28 18v-8c-2.203 0-4-1.797-4-4h-18c0 2.203-1.797 4-4 4v8c2.203 0 4 1.797 4 4h18c0-2.203 1.797-4 4-4zM30 5v18c0 0.547-0.453 1-1 1h-28c-0.547 0-1-0.453-1-1v-18c0-0.547 0.453-1 1-1h28c0.547 0 1 0.453 1 1z"
+         class="path1" />
+    </symbol>
+    <symbol
+       viewBox="0 0 18 28"
+       id="icon-lock">
+      <title
+         id="title10972">lock</title>
+      <path
+         id="path10974"
+         d="M5 12h8v-3c0-2.203-1.797-4-4-4s-4 1.797-4 4v3zM18 13.5v9c0 0.828-0.672 1.5-1.5 1.5h-15c-0.828 0-1.5-0.672-1.5-1.5v-9c0-0.828 0.672-1.5 1.5-1.5h0.5v-3c0-3.844 3.156-7 7-7s7 3.156 7 7v3h0.5c0.828 0 1.5 0.672 1.5 1.5z"
+         class="path1" />
+    </symbol>
+    <symbol
+       viewBox="0 0 24 28"
+       id="icon-clock-o">
+      <title
+         id="title10922">clock-o</title>
+      <path
+         id="path10924"
+         d="M14 8.5v7c0 0.281-0.219 0.5-0.5 0.5h-5c-0.281 0-0.5-0.219-0.5-0.5v-1c0-0.281 0.219-0.5 0.5-0.5h3.5v-5.5c0-0.281 0.219-0.5 0.5-0.5h1c0.281 0 0.5 0.219 0.5 0.5zM20.5 14c0-4.688-3.813-8.5-8.5-8.5s-8.5 3.813-8.5 8.5 3.813 8.5 8.5 8.5 8.5-3.813 8.5-8.5zM24 14c0 6.625-5.375 12-12 12s-12-5.375-12-12 5.375-12 12-12 12 5.375 12 12z"
+         class="path1" />
+    </symbol>
+    <symbol
+       viewBox="0 0 16 28"
+       id="icon-map-marker">
+      <title
+         id="title11117">map-marker</title>
+      <path
+         id="path11119"
+         d="M12 10c0-2.203-1.797-4-4-4s-4 1.797-4 4 1.797 4 4 4 4-1.797 4-4zM16 10c0 0.953-0.109 1.937-0.516 2.797l-5.688 12.094c-0.328 0.688-1.047 1.109-1.797 1.109s-1.469-0.422-1.781-1.109l-5.703-12.094c-0.406-0.859-0.516-1.844-0.516-2.797 0-4.422 3.578-8 8-8s8 3.578 8 8z"
+         class="path1" />
+    </symbol>
+    <symbol
+       viewBox="0 0 26 28"
+       id="icon-shopping-cart">
+      <title
+         id="title11372">shopping-cart</title>
+      <path
+         id="path11374"
+         d="M10 24c0 1.094-0.906 2-2 2s-2-0.906-2-2 0.906-2 2-2 2 0.906 2 2zM24 24c0 1.094-0.906 2-2 2s-2-0.906-2-2 0.906-2 2-2 2 0.906 2 2zM26 7v8c0 0.5-0.391 0.938-0.891 1l-16.312 1.906c0.078 0.359 0.203 0.719 0.203 1.094 0 0.359-0.219 0.688-0.375 1h14.375c0.547 0 1 0.453 1 1s-0.453 1-1 1h-16c-0.547 0-1-0.453-1-1 0-0.484 0.703-1.656 0.953-2.141l-2.766-12.859h-3.187c-0.547 0-1-0.453-1-1s0.453-1 1-1h4c1.047 0 1.078 1.25 1.234 2h18.766c0.547 0 1 0.453 1 1z"
+         class="path1" />
+    </symbol>
+  </defs>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     style="opacity:0.93"
+     transform="translate(0,-26.06665)"
+     id="layer1">
+    <use
+       height="100%"
+       width="100%"
+       y="0"
+       x="0"
+       transform="matrix(0,-2.2237599,-1.6834115,0,194.83936,328.31531)"
+       xlink:href="#ManualOperation"
+       style="fill:#ac9d93;fill-opacity:1;stroke:none;stroke-width:1.00157487;stroke-miterlimit:4;stroke-dasharray:none;opacity:0.94"
+       id="use90552" />
+    <use
+       id="use90568"
+       style="fill:#483e37;fill-opacity:1;stroke:none;stroke-width:1.00157487;stroke-miterlimit:4;stroke-dasharray:none"
+       xlink:href="#ManualOperation"
+       transform="matrix(0,-2.2237599,1.6834115,0,76.73598,328.31531)"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%" />
+  </g>
+  <g
+     id="layer5">
+    <use
+       style="fill:#ffffff"
+       height="100%"
+       width="100%"
+       y="0"
+       x="0"
+       transform="matrix(0.69290499,0,0,0.69290499,41.601143,34.896451)"
+       xlink:href="#icon-shopping-cart"
+       id="use93036" />
+  </g>
+  <g
+     style="display:none"
+     id="layer3">
+    <use
+       style="opacity:0.98000004;fill:#ffffff"
+       height="100%"
+       width="100%"
+       y="0"
+       x="0"
+       transform="matrix(0.88425661,0,0,0.88425661,15.742019,14.732933)"
+       xlink:href="#icon-lock"
+       id="use92752" />
+  </g>
+  <g
+     style="display:none"
+     id="layer4">
+    <use
+       style="fill:#ffffff"
+       height="100%"
+       width="100%"
+       y="0"
+       x="0"
+       transform="matrix(0.80983069,0,0,0.80983069,26.171337,31.922605)"
+       xlink:href="#icon-map-marker"
+       id="use92917" />
+  </g>
+  <g
+     style="display:none"
+     id="layer2">
+    <use
+       style="opacity:0.97000002;fill:#ffffff"
+       height="100%"
+       width="100%"
+       y="0"
+       x="0"
+       transform="matrix(0.57681739,0.57681739,-0.57681739,0.57681739,141.03685,-32.472003)"
+       xlink:href="#icon-key"
+       id="use92642" />
+  </g>
+</svg>

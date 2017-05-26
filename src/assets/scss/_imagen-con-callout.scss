@@ -1,0 +1,22 @@
+.imagen-con-callout__imagen {
+  margin-bottom: 1rem;
+
+  &-activa {
+    &:hover {
+      border: 1px solid $color-links;
+    }
+  }
+}
+
+.callout-personalizado {
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px rgba($color-dark, .3);
+}
+
+.imagen-con-callout__lista-ordenada {
+  margin-left: 1.5rem;
+
+  li {
+    margin-bottom: 0.5rem;
+  }
+}

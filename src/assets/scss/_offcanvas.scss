@@ -13,6 +13,7 @@
 
 .menu-canvas {
   margin-top: 2rem;
+  margin-bottom: 2rem;
   margin-left: 0.5rem;
 
   &__item {
@@ -27,6 +28,10 @@
     color: $color-light;
 
     &:hover {
+      color: $color-light;
+    }
+
+    &:active {
       color: $color-light;
     }
   }

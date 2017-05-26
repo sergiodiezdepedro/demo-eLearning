@@ -1,0 +1,131 @@
+---
+titulo-pagina: Página 18
+modulo: Módulo 1
+unidad: Unidad 1
+link-inicio-curso: index.html
+link-inicio-modulo: inicio-modulo.html
+link-inicio-unidad: inicio-unidad.html
+previo: Página 17
+link-previo: pagina17.html
+siguiente: Página 19
+link-siguiente: pagina19.html
+objeto-click: la imagen
+---
+{{> off-canvas type="unidad1"}}
+<div class="contenedor-principal">
+  {{> migas}}
+  <div class="row">
+    <div class="large-12 columns">
+      <div class="contenedor-centrar-horizontal">
+        <p class="parrafo-destacado ">
+          Hay dos grandes modalidades de eLearning:
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="large-6 columns">
+      <div class="imagen-con-callout__contenedor">
+        <a data-toggle="panel-1"><img class="imagen-con-callout__imagen imagen-con-callout__imagen-activa" src="{{root}}/assets/img/sincro.svg" alt="Síncrono"></a>
+      </div>
+      <div class="callout callout-personalizado warning is-hidden" id="panel-1" data-closable data-toggler="is-hidden">
+        <button class="close-button" data-toggle="panel-1">×</button>
+        <h4>Síncrono</h4>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta quas optio alias voluptas nobis iusto mollitia asperiores incidunt reprehenderit doloribus voluptatibus officiis minus, inventore, quasi nisi. Consequuntur, quidem. Sint, dicta?
+        </p>
+      </div>
+      {{> accion-click}}
+    </div>
+    <div class="large-6 columns">
+      <div class="imagen-con-callout__contenedor">
+        <a data-toggle="panel-2"><img class="imagen-con-callout__imagen imagen-con-callout__imagen-activa" src="{{root}}/assets/img/asincro.svg" alt="Asíncrono"></a>
+      </div>
+      <div class="callout callout-personalizado warning is-hidden" id="panel-2" data-closable data-toggler="is-hidden">
+        <button class="close-button" data-toggle="panel-2">×</button>
+        <h4>Asíncrono</h4>
+        <p>
+          Maxime itaque ut earum provident atque. Necessitatibus consectetur, molestiae asperiores repellendus.
+        </p>
+        <p>
+          At nihil eos odio, fugit nostrum nesciunt amet. Veritatis nihil tenetur iure quam sint reiciendis, sunt quibusdam.
+        </p>
+      </div>
+      {{> accion-click}}
+    </div>
+  </div>
+  <div class="row">
+    <div class="large-12 columns">
+      <div class="contenedor-centrar-horizontal">
+        <p class="parrafo-destacado ">
+          Blended Learning (Aprendizaje semipresencial)
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="large-6 columns">
+      <div class="imagen-con-callout__contenedor">
+        <a data-toggle="panel-3">
+          <img class="imagen-con-callout__imagen imagen-con-callout__imagen-activa" src="{{root}}/assets/img/blended.svg" alt="Blended">
+        </a>
+      </div>
+      {{> accion-click}}
+    </div>
+    <div class="large-6 columns">
+      <div class="callout callout-personalizado warning" id="panel-3" data-toggler data-animate="hinge-in-from-right hinge-out-from-right">
+        <h4>Blended eLearning</h4>
+        <p>
+           Dicta quas optio alias voluptas nobis iusto mollitia asperiores incidunt reprehenderit doloribus voluptatibus officiis minus, inventore, quasi nisi.
+        </p>
+        <p>
+          Consequuntur, quidem. Sint, dicta consectetur adipisicing elit. Odio illo pariatur ut quod autem eius ab esse natus, ad enim facilis, aspernatur.
+        </p>
+        <p>
+          Doloribus fugiat praesentium accusamus excepturi. Error possimus, voluptatum aliquam pariatur.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="large-12 columns">
+    <div class="contenedor-centrar-horizontal">
+      <p class="parrafo-destacado ">
+        El desarrollo del Blended Learning es...
+      </p>
+    </div>
+  </div>
+  <div class="row fila-ultima">
+    <div class="large-6 columns">
+      <div class="imagen-con-callout__contenedor">
+        <a data-toggle="panel-4"><img class="imagen-con-callout__imagen imagen-con-callout__imagen-activa" src="{{root}}/assets/img/proceso_blended.svg" alt="Proceso Blended"></a>
+      </div>
+      {{> accion-click}}
+    </div>
+    <div class="large-6 columns">
+      <div class="callout callout-personalizado warning" id="panel-4" data-toggler data-animate="hinge-in-from-right hinge-out-from-right">
+        <h4>Procreso del Blended Learning</h4>
+        <ol class="imagen-con-callout__lista-ordenada">
+          <li>
+            Tempor vel neque in, tincidunt sodales odio.
+          </li>
+          <li>
+            Morbi eros quam, posuere a consectetur vel, finibus ac ipsum.
+          </li>
+          <li>
+            Gravida diam sed molestie lorem purus nec velit. Quisque vulputate in elit id mollis.
+          </li>
+          <li>
+            Sed convallis risus turpis, vel mattis orci rutrum a. Ut maximus mauris nibh, ut tempor nulla ultrices ultricies.
+          </li>
+          <li>
+            Duis imperdiet, arcu non sollicitudin dictum, diam velit imperdiet nisl, ut congue velit arcu eget ipsum.
+          </li>
+          <li>
+            Nulla fermentum quis nulla a blandit quisque a augue.
+          </li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</div>
+{{> footer type='footer-normal'}}

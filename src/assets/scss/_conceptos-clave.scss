@@ -1,0 +1,40 @@
+.conceptos-clave__linea {
+    margin: 1rem 0;
+    @media screen and (max-width: $punto-ruptura-1 - 1) {
+        margin: 0;
+    }
+}
+
+.conceptos-clave__contenedor-icono {
+    text-align: center;
+}
+
+.conceptos-clave__texto-icono {
+    margin-top: .5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: darken($color-light-darken, 25%);
+}
+
+.conceptos-clave_contenedor-pro-contra {
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    @media screen and (min-width: $punto-ruptura-1) {
+        transform: skew(-10deg);
+    }
+}
+
+.conceptos-clave__parrafo {
+    margin-bottom: .5rem;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.conceptos-clave__pro {
+    background-color: darken($color-bien, 40%)
+}
+
+.conceptos-clave__contra {
+    background-color: darken($color-mal, 40%)
+}
