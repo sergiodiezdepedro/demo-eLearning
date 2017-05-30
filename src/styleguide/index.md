@@ -8,7 +8,7 @@
 
 <p class="lead">Esto es una demo de cómo plantearía ahora mismo una acción formativa de e-Learning.</p>
 
-Obviamente, no cubre todas las necesidades de todos los cursos posibles. Es una muestra de lo que se puede hacer con los estándares (HTML, CSS, JavaScript) actuales. Aunque, siendo modesto, sería más adecuado afirmar que **esto es lo que yo sé hacer** con los estándares.
+Obviamente, no cubre todas las necesidades de todos los cursos posibles. Es una muestra de lo que se puede hacer con los estándares (HTML, CSS, JavaScript) actuales. Aunque, siendo modesto, sería más adecuado afirmar que **esto es lo que yo sé hacer** con los estándares. Pero dado que aprendo rápido y no dejo de hacerlo, seguro que en un corto intervalo de tiempo haré más y mejores cosas.
 
 
 
@@ -22,13 +22,13 @@ Hay varias razones por las que me inclinado por él frente a otros. Esto no sign
 
 * Para automatizar todas las tediosas y repetitivas tareas se apoya en [Gulp](http://gulpjs.com/) .
 
-* Posee en potente sistema de templating con iteraciones, variables, condicionales, etc basado en [Handlebars](http://handlebarsjs.com/) .
+* Posee un potente sistema de *templating* con iteraciones, variables, condicionales, etc basado en [Handlebars](http://handlebarsjs.com/) .
 
 * Su sistema de grid es muy intuitivo.
 
 * Su última actualización es reciente (Diciembre de 2016).
 
-Luego de lo anterior se deduce que me gusta usar Sass y Gulp. Y que adoro un buen motor de templates.
+De lo anterior podría deducirse que me gusta usar Sass y Gulp. Así es. Y que también adoro disponer de un buen motor de templates.
 
 El resto son opiniones personales.
 
@@ -142,4 +142,9 @@ Los navegadores de verdad (ya saben a lo que me refiero) tienen ajustada la comp
       </div>
     </div>
   </div>
+</div>
+
+
+<div class="row fila-ultima contenedor-flex">
+  <a class="boton-link" href="index.html">Home Demo<i class="fa fa-link"></i></a>
 </div>

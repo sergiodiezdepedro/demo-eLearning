@@ -1,0 +1,6 @@
+{{#ifequal type 'descargar'}}
+<a class="boton-descarga" href="{{root}}{{ruta-item}}" download>Descargar <i class="fa fa-file-pdf-o"></i></a>
+{{/ifequal}}
+{{#ifequal type 'link'}}
+<a class="boton-link" ref="{{root}}{{ruta}}">{{donde}}<i class="fa fa-link"></i></a>
+{{/ifequal}}

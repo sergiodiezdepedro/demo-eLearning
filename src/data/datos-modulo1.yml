@@ -73,3 +73,6 @@ paginas-unidad1:
   -
     link-pagina: pagina20.html
     titulo-pagina: Página 20
+  -
+    link-pagina: styleguide.html
+    titulo-pagina: Guía de Estilo
