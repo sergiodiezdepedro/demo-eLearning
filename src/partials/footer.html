@@ -28,4 +28,15 @@
     </a>
   </div>
   {{/ifequal}}
+  {{#ifequal type 'footer-ultima'}}
+  <div class="previo">
+    <a class="footer-link" href="{{link-previo}}">
+      <div class="contenedor-texto-anterior">
+        <p class="footer-anterior">Previo</p>
+        <p class="footer-trayecto"><i class="footer-link__icono-anterior fa fa-chevron-left"></i>{{previo}}</p>
+      </div>
+    </a>
+  </div>
+  <div class="siguiente-vacio"></div>
+  {{/ifequal}}
 </div>

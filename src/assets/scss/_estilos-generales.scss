@@ -78,6 +78,9 @@
 
 .cabecera-pagina {
   margin-bottom: 2rem;
+  padding-left: 1.5rem;
+  border-left: rem-calc(15) solid $color-dark;
+  border-radius: 3px;
   color: $color-destacado;
 }
 

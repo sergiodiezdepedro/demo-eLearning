@@ -1,0 +1,46 @@
+.body-full-color {
+  background-color: $color-destacado;
+
+  &__contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    @media screen and (min-width: $punto-ruptura-1) {
+      width: 75%;
+    }
+    @media screen and (max-width: $punto-ruptura-1 - 1) {
+      width: 90%;
+    }
+  }
+
+  &__blockquote {
+    padding-bottom: 1rem;
+    border-left: none;
+    border-bottom: 1px solid rgba($color-complementario, .33);
+    font-family: $fuente-serif;
+    color: $color-light;
+    @media screen and (min-width: $punto-ruptura-1) {
+      font-size: 3rem;
+    }
+    @media screen and (max-width: $punto-ruptura-1 - 1) {
+      font-size: 2rem;
+    }
+
+    cite {
+      @media screen and (min-width: $punto-ruptura-1) {
+        font-size: 1.5rem;
+      }
+      @media screen and (max-width: $punto-ruptura-1 - 1) {
+        font-size: 1rem;
+      }
+      color: $color-light;
+    }
+  }
+}
+
+.ribbon {
+  max-width: rem-calc(150);
+  margin-bottom: 1rem;
+}

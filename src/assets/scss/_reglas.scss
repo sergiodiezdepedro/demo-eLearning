@@ -1,0 +1,41 @@
+.contenedor-regla {
+  padding: 1.5rem;
+  border: 1px solid $color-destacado;
+  border-radius: 5px;
+  box-shadow: 0 2px 2px rgba($color-dark, .4);
+  @media screen and (min-width: $punto-ruptura-1 + 1) {
+    margin-bottom: 2rem;
+  }
+
+  &:first-child {
+    @media screen and (max-width: $punto-ruptura-1) {
+      margin-bottom: 1.5rem;
+    }
+  }
+}
+
+.cabecera-regla {
+  font-family: $fuente-serif;
+  font-weight: bold;
+  color: $color-destacado;
+}
+
+.contenedor-resumen-reglas {
+  position: relative;
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: lighten($color-destacado, 50%);
+
+  &::before {
+    position: absolute;
+    left: 0;
+    top: -20px;
+    z-index: -20;
+    @include css-triangle(60px, lighten($color-destacado, 50%), up);
+  }
+}
+
+.resumen-reglas {
+  color: darken($color-light-darken, 33%);
+}
