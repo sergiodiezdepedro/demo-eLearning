@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guía de Estilo</title>
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/styles/github.min.css">
+
+    <!-- Style guide-specific CSS goes here. -->
+    <style>
+    /* This styles individual sections of the style guide */
+    .ss-section:not(:last-child) {
+      padding-bottom: 4rem;
+      border-bottom: 2px solid #ccc;
+      margin-bottom: 4rem;
+    }
+
+    /* This styles code blocks used for examples. */
+    .ss-code code {
+      display: block;
+      padding: 1rem;
+      overflow-x: scroll;
+      margin-bottom: 1.5rem;
+    }
+
+    /* This styles the example rows used in the grid documentation. */
+    .row.display {
+      background: #eee;
+      font-size: 11px;
+      margin-bottom: 10px;
+      line-height: 2rem;
+      border: solid 1px #c6c6c6;
+      margin-left: 0 !important;
+      margin-right: 0 !important; }
+      .row.display .columns:nth-child(2), .row.display .columns.small-centered, .row.display .columns.large-centered {
+        background: #e1e1e1; }
+      .row.display .columns.color-end {
+        background: #d4d4d4; }
+
+    /* This styles the color blocks used in the color documentation. */
+    .color-block {
+      border-radius: 2px;
+      display: block;
+      padding: 8px 8px 6px;
+      color: #333;
+      text-transform: uppercase;
+      border: 1px solid #ddd;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    }
+      .color-block span {
+        display: block;
+        width: 100%;
+        height: 100px;
+        margin-bottom: 0.42857rem;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="column row">
+      <h1>Guía de Estilo de la Demo de e-Learning</h1>
+      <p class="lead">Esta es una guía que explica y acompaña a la Demo de una hipotética acción formativa de e-Learning.</p>
+      <a href="index.html" class="warning button">Home Demo</a>
+      <a href="http://theremainsoftheday.esy.es/profesional/index.html" class="secondary button">Página Personal</a>
+      <a href="http://taste-the-fish.esy.es/" class="secondary button">Currículo</a>
+      <a href="https://github.com/sergiodiezdepedro" class="secondary button">@GitHub</a>
+      <a href="http://codepen.io/sergiodiezdepedro/" class="secondary button">@CodePen</a>
+    </div>
+
+    <div class="column row"><div class="row collapse">
+
+      <div class="large-3 medium-4 columns" data-sticky-container>
+        <ul class="vertical menu">
+            <li><a href="#-por-qu-">¿Por qué?</a></li>
+            <li><a href="#visi-n-general">Visión General</a></li>
+            <li><a href="#framework">Framework</a></li>
+            <li><a href="#responsive-y-crossbrowsing">Responsive y Crossbrowsing</a></li>
+            <li><a href="#colores">Colores</a></li>
+            <li><a href="#tipograf-a">Tipografía</a></li>
+        </ul>
+      </div>
+
+      <div class="large-9 medium-8 columns">
+          <section class="ss-section" id="-por-qu-">
+            <h1>¿Por qué?</h1><p class="lead">Clientes y empleadores quieren, necesitan ver realidades tangibles para confiar en el sujeto que tienen enfrente y al que han de confiar parte de su dinero.</p>
+          </section>
+          <section class="ss-section" id="visi-n-general">
+            <h1>Visión General</h1><p class="lead">Esto es una demo de cómo plantearía ahora mismo una acción formativa de e-Learning.</p>
+
+<p>Obviamente, no cubre todas las necesidades de todos los cursos posibles. Es una muestra de lo que se puede hacer con los estándares (HTML, CSS, JavaScript) actuales. Aunque, siendo modesto, sería más adecuado afirmar que <strong>esto es lo que yo sé hacer</strong> con los estándares. Pero dado que aprendo rápido y no dejo de hacerlo, seguro que en un corto intervalo de tiempo haré más y mejores cosas.</p>
+
+          </section>
+          <section class="ss-section" id="framework">
+            <h1>Framework</h1><p class="lead">Para facilitar y agilizar las tareas de diseño y realización de los diversos componentes he recurrido al framework CSS <a href="http://foundation.zurb.com/">Foundation</a>.</p>
+
+<p>Hay varias razones por las que me inclinado por él frente a otros. Esto no significa que crea que es el mejor, sino que me encuentro más cómodo utilizándolo. ¿Por qué?</p>
+<ul>
+<li><p>Está basado en <a href="http://sass-lang.com/">Sass</a> como precompilador de CSS.</p>
+</li>
+<li><p>Para automatizar todas las tediosas y repetitivas tareas se apoya en <a href="http://gulpjs.com/">Gulp</a> .</p>
+</li>
+<li><p>Posee un potente sistema de <em>templating</em> con iteraciones, variables, condicionales, etc basado en <a href="http://handlebarsjs.com/">Handlebars</a> .</p>
+</li>
+<li><p>Su sistema de grid es muy intuitivo.</p>
+</li>
+<li><p>Su última actualización es reciente (Diciembre de 2016).</p>
+</li>
+</ul>
+<p>De lo anterior podría deducirse que me gusta usar Sass y Gulp. Así es. Y que también adoro disponer de un buen motor de templates.</p>
+<p>El resto son opiniones personales.</p>
+
+          </section>
+          <section class="ss-section" id="responsive-y-crossbrowsing">
+            <h1>Responsive y Crossbrowsing</h1><p class="lead">Sí, la demo se ha implementado teniendo en cuenta los principales dispositivos (celulares, tablets, ordenadores, grandes displays).</p>
+
+<p>Se ha testado en los más utilizados. Y se se toman la molestia, esta misma guía es impecablemente responsive.</p>
+<p>En cuanto a los navegadores, aunque esta versión de Foundation es compatible hasta Explorer 9, yo he utilizado recursos y técnicas que no tienen soporte hasta Explorer 11. Si Microsoft ha abandonado a los viejos elefantes, ¿por qué he de cuidarlos yo?</p>
+<p>Si quieren soporte para Explorer 7, yo no soy su hombre.</p>
+<p>Los navegadores de verdad (ya saben a lo que me refiero) tienen ajustada la compatibilidad a las dos últimas versiones.</p>
+
+          </section>
+          <section class="ss-section" id="colores">
+            <h1>Colores</h1><p class="lead">Esta es la paleta de colores que he utilizado en el proyecto.</p>
+
+<div class="row up-1 medium-up-3 large-up-5">
+  <div class="column">
+    <div class="color-block">
+      <span style="background: #445762"></span>
+      #445762
+    </div>
+  </div>
+  <div class="column">
+    <div class="color-block">
+      <span style="background: #1565c0"></span>
+      #1565c0
+    </div>
+  </div>
+  <div class="column">
+    <div class="color-block">
+      <span style="background: #256689"></span>
+      #256689
+    </div>
+  </div>
+  <div class="column">
+    <div class="color-block">
+      <span style="background: #eeeeee"></span>
+      #eeeeee
+    </div>
+  </div>
+  <div class="column">
+    <div class="color-block">
+      <span style="background: #212121"></span>
+      #212121
+    </div>
+  </div>
+  <div class="column">
+    <div class="color-block">
+      <span style="background: #9e9e9e"></span>
+      #9e9e9e
+    </div>
+  </div>
+  <div class="column">
+    <div class="color-block">
+      <span style="background: #b0bEc5"></span>
+      #b0bEc5
+    </div>
+  </div>
+  <div class="column">
+    <div class="color-block">
+      <span style="background: #777777"></span>
+      #777777
+    </div>
+  </div>
+  <div class="column">
+    <div class="color-block">
+      <span style="background: #eb6262"></span>
+      #eb6262
+    </div>
+  </div>
+  <div class="column">
+    <div class="color-block">
+      <span style="background:  #c5e1a5"></span>
+       #c5e1a5
+    </div>
+  </div>
+  <div class="column">
+    <div class="color-block">
+      <span style="background: #ef9a9a"></span>
+      #ef9a9a
+    </div>
+  </div>
+</div>
+          </section>
+          <section class="ss-section" id="tipograf-a">
+            <h1>Tipografía</h1><p class="lead">En el proyecto he utilizado <strong>Ubuntu</strong> como fuente sans-serif y <strong>Lora</strong> como fuente serif.</p>
+
+<div class="row">
+  <div class="large-6 small-12 columns">
+    <div class="styleguide__contenedor-tipografia">
+      <div class="styleguide__subcontenedor-tipografia">
+        <h2 class="styleguide__tipografia tipografia-ubuntu">Ubuntu</h2>
+      </div>
+    </div>
+  </div>
+  <div class="large-6 small-12 columns">
+    <div class="styleguide__contenedor-tipografia">
+      <div class="styleguide__subcontenedor-tipografia">
+        <h2 class="styleguide__tipografia tipografia-lora">Lora</h2>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="row fila-ultima contenedor-flex">
+  <a class="boton-link" href="index.html">Home Demo<i class="fa fa-link"></i></a>
+</div>
+
+          </section>
+      </div>
+
+    </div></div>
+
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
